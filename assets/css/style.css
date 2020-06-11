@@ -1,3 +1,8 @@
+/*ml-auto on line 76 causing submenu to go off page*/
+
+
+/*-------------------------------------------- general body html styling --------------------------------------------------------------------*/
+
 body h1 {
     color: #FFF;
     font-weight: bold;
@@ -13,6 +18,8 @@ body h1 {
     
 }
 
+/*-------------------------------------------- full width background image ------------------------------------------------------------------*/
+
 .wood-container {
     height: 100vh;
     background: url('../images/wood.jpg');
@@ -24,6 +31,8 @@ body h1 {
     align-items: center;
     justify-content:center;
 }
+
+/*-------------------------------------------- background preload & job title overlay -------------------------------------------------------*/
 
 .mist {
 
@@ -38,41 +47,37 @@ body h1 {
     text-align:center;
     z-index: -1;
 }
-/*ml-auto on line 76 causing submenu to go off page*/
 
-.jobtitle-inner {
+/*-------------------------------------------- job-title & job description  ----------------------------------------------------------------*/
+
+.marketing {
     white-space: nowrap;
     position: left;
     font-size: 5vw;
-    padding: rem;
+    padding: 1rem;
     display: block;
     color: #fff;
 }
 
-.jumbotron-entry h2 {
-    color: rgb(248,248,255);
+
+.jobtitle-inner, h4 {
+    color:#FFF;
     font-weight: bold;
-    margin-bottom: 30px;
-    letter-spacing: 6px;
-    text-decoration-style: solid;
-    border: 3px solid rgb(248,248,255); 
-    padding: 5px;
-    
+    padding-top: 5px;
 }
 
-.btn-lg {
-background: #ffee38;
-color: #000;
-border:2px solid;}
+/*------------------------------------------- start of marketing block-text ---------------------------------------------------------------*/
 
 .jr-initial {
    padding: 15px;
-
+   color: #FFF;
 }
 
-
-
-.nav-item-dropdown {
-    
+.col-sm-6 {
+    color: black;
 }
+
+/*-------------------------------------------- blank -------------------------------------------------------------------------------------*/
+
+
 
