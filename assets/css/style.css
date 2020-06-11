@@ -3,7 +3,7 @@
 
 /*-------------------------------------------- general body html styling --------------------------------------------------------------------*/
 
-body h1 {
+/*body h1 {
     color: #FFF;
     font-weight: bold;
     margin-bottom: 30px;
@@ -20,7 +20,7 @@ body h1 {
 
 /*-------------------------------------------- full width background image ------------------------------------------------------------------*/
 
-.wood-container {
+/*.wood-container {
     height: 100vh;
     background: url('../images/wood.jpg');
     -webkit-background-size: cover;
@@ -34,7 +34,7 @@ body h1 {
 
 /*-------------------------------------------- background preload & job title overlay -------------------------------------------------------*/
 
-.mist {
+/*.mist {
 
     position: absolute;
     top: 0;
@@ -50,7 +50,7 @@ body h1 {
 
 /*-------------------------------------------- job-title & job description  ----------------------------------------------------------------*/
 
-.marketing {
+/*.marketing {
     white-space: nowrap;
     position: left;
     font-size: 5vw;
@@ -69,12 +69,17 @@ body h1 {
 /*------------------------------------------- start of marketing block-text ---------------------------------------------------------------*/
 
 .jr-initial {
-   padding: 15px;
-   color: #FFF;
+    
+    background: url("../images/jr-initial.jpg") no-repeat no-repeat center center;
+    border-radius: 50%;
+   
 }
 
-.col-sm-6 {
+/*.col-sm-6 {
     color: black;
+    
+    
+
 }
 
 /*-------------------------------------------- blank -------------------------------------------------------------------------------------*/
