@@ -1,23 +1,9 @@
 body h1 {
     color: #FFF;
-}
-
-
-/*.jumbotron {
-    background-color: #797373;
-    margin-bottom: 0px; 
-    background-size: 100%;
-     background-repeat: no-repeat; 
-     height: 245px;
-}*/
-
-.jumbotron h1 {
-    color: rgb(248,248,255);
     font-weight: bold;
     margin-bottom: 30px;
-    letter-spacing: 1px;
-    
-    
+    letter-spacing: 9px;
+    text-align: center;
 }
 
 .jumbotron p {
@@ -44,9 +30,12 @@ body h1 {
     position: absolute;
     top: 0;
     left: 0;
-    height: 107vh;
+    height: 105vh;
     width: 100%;
     background-color: #797373;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+    text-align:center;
     z-index: -1;
 }
 /*ml-auto on line 76 causing submenu to go off page*/
@@ -55,9 +44,9 @@ body h1 {
     white-space: nowrap;
     position: left;
     font-size: 5vw;
-    padding: 0.7rem;
+    padding: rem;
     display: block;
-    color: #000;
+    color: #fff;
 }
 
 .jumbotron-entry h2 {
@@ -76,8 +65,8 @@ background: #ffee38;
 color: #000;
 border:2px solid;}
 
-.col-sm-6 {
-   
+.jr-initial {
+   padding: 15px;
 
 }
 
