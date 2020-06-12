@@ -32,7 +32,7 @@
     justify-content:center;
 }
 
-/*-------------------------------------------- background preload & job title overlay -------------------------------------------------------*/
+/*-------------------------------------------- background preload & job title overlay -------------------------------------------------------
 
 /*.mist {
 
@@ -46,6 +46,15 @@
     padding-bottom: 5px;
     text-align:center;
     z-index: -1;
+}
+
+.animate__animated {
+
+    box-sizing: content-box;
+    width: 300px;
+    height: 100px;
+    padding: 30px;  
+    border: 10px solid blue;
 }
 
 /*-------------------------------------------- job-title & job description  ----------------------------------------------------------------*/
@@ -68,7 +77,7 @@
 
 /*------------------------------------------- start of marketing block-text ---------------------------------------------------------------*/
 
-.jr-initial {
+/*.jr-initial {
     
     background: url("../images/jr-initial.jpg");
     background-repeat: no-repeat no-repeat;
