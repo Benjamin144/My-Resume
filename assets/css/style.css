@@ -82,13 +82,45 @@
     background: url("../images/jr-initial.jpg");
     background-repeat: no-repeat no-repeat;
     background-size: contain;
-    margin-top: 10vh;
-    height: 25vh;
-    width: 25vh;
+    height: 40vh;
+    width: 40vh;
     border-radius: 62.5em;
-   
-   
+
 }
+
+.lead {
+    float: left;
+}*/
+
+
+.about-us h2 {
+font-size: 450%;
+font-weight: 400;
+margin-bottom: 0px;
+text-transform: uppercase;
+color: #666;
+margin:auto;
+}
+/*.row {
+  display:table;
+  table-layout:fixed;
+}*/
+.col-md-6 {
+  vertical-align:middle;
+  text-align:center;
+  padding:1em;
+}
+
+.lead {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+
+
+/*-------------------------------------------- 2 - col response ---------------------------------------------------------------*/
+   
 
 /*.col-sm-6 {
     color: black;
@@ -98,6 +130,5 @@
 }
 
 /*-------------------------------------------- blank -------------------------------------------------------------------------------------*/
-
 
 
