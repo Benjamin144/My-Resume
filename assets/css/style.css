@@ -70,8 +70,14 @@
 
 .jr-initial {
     
-    background: url("../images/jr-initial.jpg") no-repeat no-repeat center center;
-    border-radius: 50%;
+    background: url("../images/jr-initial.jpg");
+    background-repeat: no-repeat no-repeat;
+    background-size: contain;
+    margin-top: 10vh;
+    height: 25vh;
+    width: 25vh;
+    border-radius: 62.5em;
+   
    
 }
 
