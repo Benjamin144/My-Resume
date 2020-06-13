@@ -20,8 +20,9 @@
 
 /*-------------------------------------------- full width background image ------------------------------------------------------------------*/
 
-/*.wood-container {
+    .wood-container {
     height: 100vh;
+    width: 100vw;
     background: url('../images/wood.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -81,17 +82,17 @@
 
 /*-------------------------------------------- general body html styling version 2 --------------------------------------------------------------------*/
 
-html, body {
+html, body  {
     height:100vh; 
     width:100vw;
-    background-color: white !important;
+    background-color: white;
    
 }
 
 /*-------------------------------------------- navbar elements   --------------------------------------------------------------------*/
 
 .navbar{
-    background-color: #eee2d6 !important;
+    background-color: orange !important;
     padding: 1% 0 !important;
     font-size: 1.2em !important; 
     min-height: 55px !important;
@@ -105,23 +106,39 @@ html, body {
 }
 
 .navbar-nav li a {
-    color:  solid black !important;
+    color:  #D5D5D5 !important;
     padding: 0px 0px 0px 175px !important;
     margin: 0px 0px 0px 100px !important;
     min-height: 30px !important;
+    justify-content:space-evenly !important;
 }
 
-.navbar-nav li.active a:hover {
-    color: #ffb57a!important;
+.navbar .navbar-nav li a:hover, .navbar .navbar-nav li a.active {
+    color: #FFF!important;
 }
 
 .caviat {
     margin-right: 50px !important;
 }
 
+h1 {
+    color: #fff;
+    font-size: 500%;
+    font-weight: 700%;
+
+    
+}
 
 
 /*------------------------------------------- start of marketing block-text ---------------------------------------------------------------*/
+
+.padding {
+    padding: 80px 0;
+}
+
+.padding img {
+    width: 100%;
+}
 
 .about-us h2 {
 font-size: 435%;
@@ -143,9 +160,20 @@ margin:auto;
     text-justify: inter-word;
 }
 
-.rounded-circle {
-    background-size: contain;
-    margin-bottom: 16px;
+.background {
+    height: 60vh;
+    width: 100vw;
+    position: relative;
+     background: url('../images/background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
 }
 
+   
 
