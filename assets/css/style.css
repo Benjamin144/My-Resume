@@ -73,21 +73,55 @@
     color:#FFF;
     font-weight: bold;
     padding-top: 5px;
-}
-
-/*------------------------------------------- start of marketing block-text ---------------------------------------------------------------*/
-
-/*.jr-initial {
-    
-    background: url("../images/jr-initial.jpg");
-    background-repeat: no-repeat no-repeat;
-    background-size: contain;
-    height: 40vh;
-    width: 40vh;
-    border-radius: 62.5em;
-
 }*/
 
+
+
+
+
+/*-------------------------------------------- general body html styling version 2 --------------------------------------------------------------------*/
+
+html, body {
+    height:100vh; 
+    width:100vw;
+    background-color: white !important;
+   
+}
+
+/*-------------------------------------------- navbar elements   --------------------------------------------------------------------*/
+
+.navbar{
+    background-color: #eee2d6 !important;
+    padding: 1% 0 !important;
+    font-size: 1.2em !important; 
+    min-height: 55px !important;
+   
+}
+  
+
+.navbar-brand {
+    min-height: 30px !important;
+    padding: 5px 0 15px 5px !important;
+}
+
+.navbar-nav li a {
+    color:  solid black !important;
+    padding: 0px 0px 0px 175px !important;
+    margin: 0px 0px 0px 100px !important;
+    min-height: 30px !important;
+}
+
+.navbar-nav li.active a:hover {
+    color: #ffb57a!important;
+}
+
+.caviat {
+    margin-right: 50px !important;
+}
+
+
+
+/*------------------------------------------- start of marketing block-text ---------------------------------------------------------------*/
 
 .about-us h2 {
 font-size: 435%;
@@ -109,48 +143,9 @@ margin:auto;
     text-justify: inter-word;
 }
 
-/*.trendingJS {
-
-    background: url("../images/trendingJS.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height:200px;
-    width: 250px;
-    border-radius: 50%;
-    padding: 50%;
-    margin-left: 25%;
-}*/
-
 .rounded-circle {
     background-size: contain;
-    
     margin-bottom: 16px;
-
 }
-
-
-
-/*.kit {
-    
-    background: url("../images/kit.png");
-    background-repeat: no-repeat no-repeat;
-    background-size: contain;
-    height: 40vh;
-    width: 40vh;
-    border-radius: 62.5em;
-
-}
-
-/*-------------------------------------------- 2 - col response ---------------------------------------------------------------*/
-   
-
-/*.col-sm-6 {
-    color: black;
-    
-    
-
-}
-
-/*-------------------------------------------- blank -------------------------------------------------------------------------------------*/
 
 
