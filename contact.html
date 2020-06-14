@@ -276,7 +276,16 @@
 
     </section>-->
 
- 
+ <div id="map">
+ </div>
+ <script>
+    function initMap() {
+        var location = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementByID("map"), {zoom: 4,
+                                                                        center: location
+                                                                        });
+    }                                     
+ </script>
 
 
       <footer>
@@ -384,8 +393,11 @@
         </div>
 
       </footer>
-
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
+  type="text/javascript"></script>
       <script
+
+      
 
         src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 
