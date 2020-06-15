@@ -1,53 +1,89 @@
 
 
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&family=Roboto&display=swap');
+
 
 /*-------------------------------------------- general body html styling --------------------------------------------------------------------*/
 
-body h1 {
-    color: #FFF;
-    font-weight: bold;
-    margin-bottom: 30px;
-    letter-spacing: 9px;
-    text-align: center;
+
+
+html{
+    width:100%;
+    height:100%;
+    min-width: 100%;
+}
+body{
+    width:100%;
+    height:100%;
+    min-width: 100%;
+    background-color:#FFFFFF;
 }
 
+*           {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+/*
 .jumbotron p {
     color: rgb(248,248,255);
     font-weight: bold;
     margin-bottom: 30px;
     
-}
+}*/
 
 /*-------------------------------------------- full width background image ------------------------------------------------------------------*/
 
-    .mainframe {
-    height: 100vh;
+.mainframe {
+    height: 980px;
     width: 100vw;
-    background: url('../images/mainframe.jpg');
+    background: url('../images/mainframe.jpg')no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: 100% 100%;
     display: flex;
     align-items: center;
     justify-content:center;
+
 }
+
+.mainframe-outer {
+    height: 980px;
+    width: 100vw;
+
+}
+
+@keyframes mainframe-zoomer {
+    from{
+        transform: scale(1)
+    }
+    to{
+        transform: scale(1.1)
+    }
+}
+
+
+
+
 
 /*-------------------------------------------- background preload & job title overlay -------------------------------------------------------*/
 
-.mist {
+/*.mist {
 
     position: absolute;
     top: 0;
     left: 0;
     height: 105vh;
-    width: 110%;
+    width: 110vw;
     background-color: #3a90e5;
     margin-bottom: 30px;
     padding-bottom: 5px;
     text-align:center;
     z-index: -1;
-}
+}*/
 
 .animate__animated {
     z-index: 1;
@@ -71,50 +107,51 @@ body h1 {
     padding-top: 5px;
 }
 
-
-
-
-
 /*-------------------------------------------- general body html styling version 2 --------------------------------------------------------------------*/
 
-html, body  {
-    height:100vh; 
-    width:100vw;
-    background-color: white;   
-}
+
 
 /*-------------------------------------------- navbar elements   --------------------------------------------------------------------*/
 
 .navbar{
     background-color: #0b36c3 !important;
     padding: 1% 0 !important;
-    font-size: 1.2em !important; 
+    font-size: 1.2em !important;
     min-height: 55px !important;
+    min-width: 100px !important;
+    
+    
 }
   
-
 .navbar-brand {
     min-height: 30px !important;
-    padding: 5px 0 15px 5px !important;
+    padding: 5px 0 0px 5px !important;
 }
 
 .navbar-nav li a {
-    color:  #D5D5D5 !important;
+    color:  #fff !important;
     padding: 0px 0px 0px 175px !important;
     margin: 0px 0px 0px 100px !important;
     min-height: 30px !important;
     justify-content:space-evenly !important;
 }
 
+
 .navbar .navbar-nav li a:hover, .navbar .navbar-nav li a.active {
-    color: #FFF!important;
+    text-decoration: none !important;
+    color: rgb(250, 250, 114)!important;
 }
+
+
 
 
 h1  {
     color: #fff;
-    font-size: 500%;
-    font-weight: 700%;    
+    font-size: 470%;
+    font-weight: 700%;
+    margin-bottom: 30px;
+    letter-spacing: 9px;
+    text-align: center;    
 }
 
 /*------------------------------------------- start of marketing block-text ---------------------------------------------------------------*/
@@ -127,7 +164,9 @@ h1  {
     width: 100%;
 }
 
+
 .about-us h2 {
+font-family: 'Roboto', sans-serif;
 font-size: 435%;
 font-weight: 400;
 margin-bottom: 0px;
@@ -185,18 +224,32 @@ margin:auto;
     max-width: 200px;
 }
 
-@media (max-width: 768px) {
-    h1 {
-        font-size: 300%
-    
+
+
+/*@media (min-width: 768px){
+    .navbar-expand-md {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
     }
-}
+    .navbar-expand-md .navbar-nav {
+        flex-direction: row;
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+    .navbar-expand-md .navbar-collapse {
+        display: flex!important;
+    }
+    .navbar-expand-md .navbar-toggler {
+        display: none;
+    }
+}*/
 
 
-*{
-    margin: 0;
-    padding: 0;
-}
+
+
 #map {
     height: 500px;
     width: 100%;
