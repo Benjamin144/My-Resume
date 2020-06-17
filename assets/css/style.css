@@ -232,6 +232,11 @@ margin:auto;
     color: rgb(250, 250, 114)!important;
 }
 
+.nav-item {
+    color:rgb(250, 250, 114) !important;
+
+}
+
 .btn-default {
     padding: 0px 0px 0px 100px !important;
     margin: 0px 0px 0px 100px !important;
