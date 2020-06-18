@@ -157,6 +157,10 @@ margin:auto;
    
 }
 
+.container {
+    margin:10rem;
+}
+
 .container-fluid h3 {
     margin: 3.125rem;
     
