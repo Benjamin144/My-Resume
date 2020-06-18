@@ -131,6 +131,12 @@ margin:auto;
   padding:1rem;
 }
 
+.col-md-4 {
+  vertical-align:middle;
+  text-align:center;
+  padding:1rem;
+}
+
 .lead {
     text-align: justify;
     text-justify: inter-word;
@@ -243,6 +249,9 @@ margin:auto;
     min-height: 30px !important;
     
 }
+
+
+
 
 
 
