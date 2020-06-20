@@ -12,25 +12,26 @@
 	}  
 
 html, body {  
-	padding: 5px;  
+	padding: 5px;
+    min-width: 100vw;  
     width: 100vw;
     height: 100vh;
-    
-    
+    background-color:#FFFFFF;
 	}  
+
 h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {  
 	margin: 20px 0;  
 	}  
+
 li, dd, blockquote {  
 	margin-left: 40px;  
 	}  
+
 table {  
 	border-collapse: collapse;  
 	border-spacing: 0;  
 	}
 
-
-    
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -45,6 +46,69 @@ table {
           font-size: 3.5rem;
         }
       }
+
+        /*-------------------------------------------- full width background image ------------------------------------------------------------------*/
+
+.mainframe {
+    height: 980px;
+    width: 100vw;
+    background: url('../images/mainframe.jpg')no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100vh 100vh 100vh 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+
+.mainframe-outer {
+    height: 980px;
+    width: 1000px;
+
+}
+
+.myname h1  {
+    color: #F5F5F5;
+    font-size: 350%;
+    font-weight: 500%;
+    margin-bottom: 2rem;
+    letter-spacing: 0.5rem;
+        
+}
+
+
+.jobtitle-inner, h3 {
+    color:#FFF;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.mist {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 80vw;
+    background-color: #F5F5F5;
+    margin-bottom: 40px;
+    padding-bottom: 0px;
+    text-align:center;
+    z-index: -1;
+}
+
+.marketing {
+    white-space: nowrap;
+    position: left;
+    font-size: 5vw;
+    padding: 1rem;
+    display: block;
+    color: #fff;
+}
+
+
 
 
     
