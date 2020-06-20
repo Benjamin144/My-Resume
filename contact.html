@@ -40,13 +40,92 @@
   </head>
 
   <body>
-    <div class="container">
+    <header class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary">
+      <a class="navbar-brand" href="#">Skills</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+        aria-controls="navbarCollapse"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+
+         <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  >Skills<span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+
+          <!---<li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+            li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link disabled"
+              href="#"
+              tabindex="-1"
+              aria-disabled="true"
+              >Disabled</a
+            >
+          </li>
+        </ul>-->
+        <div class="btn btn-light inline mt-2 mt-md-0">
+          <button
+            class="btn btn-light dropdown-toggle mr-sm-2"
+            type="button"
+            id="menu1"
+            data-toggle="dropdown"
+          >
+           Tutorials <span class="caret my-2 my-sm-0"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                <li role="presentation">
+                  <a role="menuitem" tabindex="-1" href="#">W3Schools</a>
+                </li>
+                <li role="presentation" class="divider"></li>
+                <li role="presentation">
+                  <a role="menuitem" tabindex="-1" href="#">HTML</a>
+                </li>
+                <li role="presentation">
+                  <a role="menuitem" tabindex="-1" href="#">CSS</a>
+                </li>
+                <li role="presentation" class="divider"></li>
+                <li role="presentation">
+                  <a role="menuitem" tabindex="-1" href="#">About Us</a>
+                </li>
+              </ul>
+        </div>
+      </div>
+    </header>
+
+    <!--<div class="container">
       <div class="row">
         <header
           class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
         >
           <a href="#nearly_last_paragraph" class="navbar-brand"
-            ><span><h5>Joseph Roberts</h5></span></a
+            ><span><h5>Contact</h5></span></a
           >
           <button
             class="navbar-toggler"
@@ -70,12 +149,29 @@
               <li class="nav-item">
                 <a class="nav-link" href="skills.html">Skills</a>
               </li>
+              <form class="form-inline mt-2 mt-md-0">
               <li class="nav-item">
                 <a class="nav-link" href="#"
                   >Contact<span class="sr-only">(current)</span></a
                 >
               </li>
+              </form>
             </ul>
+
+            <form class="form-inline mt-2 mt-md-0">
+          <input
+            class="form-control mr-sm-2"
+            type="text"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      
+
+            
             <div class="btn-default">
               <button
                 class="btn btn-light dropdown-toggle"
@@ -102,11 +198,33 @@
                   <a role="menuitem" tabindex="-1" href="#">About Us</a>
                 </li>
               </ul>
-            </div>
-          </div>
-        </header>
+            </div>-->
+            <!--</div>-->
+        <!--</header>-->
+      <!--</div>-->
+    <!--</div>-->
+
+    
+
+<main role="main">
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-3">Hello, world!</h1>
+          <p>
+            This is a template for a simple marketing or informational website.
+            It includes a large callout called a jumbotron and three supporting
+            pieces of content. Use it as a starting point to create something
+            more unique.
+          </p>
+          <p>
+            <a class="btn btn-primary btn-lg" href="#" role="button"
+              >Learn more »</a
+            >
+          </p>
+        </div>
       </div>
-    </div>
+
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
@@ -258,6 +376,7 @@
         </div>
       </div>
     </div>
+</main>
 
     <!-------------------------- Footer responsiveness  ----------------------------------------->
 
