@@ -23,29 +23,35 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
 	margin: 20px 0;  
 	}  
 
-li, dd, blockquote {  
-	margin-left: 40px;  
-	}  
+h3 {
+    color: #FFFFFF;
+  
+}
 
-table {  
-	border-collapse: collapse;  
-	border-spacing: 0;  
-	}
 
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
+    .navbar{
+    background-color: #0b36c3 !important;
+    
+    }
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
+    .navbar2 {
+        background-color: orangered !important;
+
+    }
+
+    .navbar3 {
+    background-color: greenyellow !important;
+    
+    }
+
+    .navbar4 {
+        background-color: default !important;
+
+    }
+
+
+
+
 
         /*-------------------------------------------- full width background image ------------------------------------------------------------------*/
 
@@ -60,6 +66,8 @@ table {
     display: flex;
     align-items: center;
     justify-content:center;
+   
+
 }
 
 .mainframe-outer {
@@ -105,29 +113,35 @@ table {
 
 .padding h1 {
     white-space: nowrap;
-    position: absolute;
+    position: relative;
     /*font-size: 5vw;*/
     padding: 1rem;
     display: block;
     color: #4a4a4a;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Mitr', sans-serif;
     font-size: 3vh;
     font-weight: 400px;
-    margin-bottom: 0rem;
-    text-transform: uppercase;
-    margin:auto;
+    margin-bottom: 0rem;  
+    scroll-margin-top: 5rem; /* whatever is a nice number that gets you past the header */
+    float: right;
+    
 }
 
+.about-us h2 {
+    padding: 45px 0;
+
+}
 
 .padding {
-    padding: 45px 0;
+    padding: 20px 0;
 }
 
 .padding img {
     width: 100%;
 }
 
-.col-md-6 {
+
+.col-md-6 h1 {
   vertical-align:middle;
   text-align:center;
   padding:1rem;
@@ -164,15 +178,74 @@ table {
     
 }
 
+
 .col-sm-4 {
-    background-color: #202121;
+   
+    background-color: #343a40;
+ 
+    
+
 }
 
-.footer h3 {
+.footer {
     width: 100%;
-    color: #ffffff;
+    color: #FFFFFF;
     font-size: xx-large;
+    z-index:1;
 }
+
+.fas-fa-phone {
+    color: #ffffff;
+}
+
+.icon {
+    max-width: 200px;
+}
+
+
+li, dd, blockquote {  
+	margin-left: 40px;  
+	}  
+
+table {  
+	border-collapse: collapse;  
+	border-spacing: 0;  
+	}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+      }
+
+@media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+@media (min-width: 1024px){
+    .navbar-expand-lg {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+    }
+    .navbar-expand-lg .navbar-toggler {
+        display: none;
+    }
 
 
 
