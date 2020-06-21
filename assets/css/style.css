@@ -52,7 +52,7 @@ table {
 .mainframe {
     height: 980px;
     width: 100vw;
-    background: url('../images/mainframe.jpg')no-repeat center center;
+    background: url('../images/mainframe.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -60,7 +60,6 @@ table {
     display: flex;
     align-items: center;
     justify-content:center;
-
 }
 
 .mainframe-outer {
@@ -75,14 +74,19 @@ table {
     font-weight: 500%;
     margin-bottom: 2rem;
     letter-spacing: 0.5rem;
-        
+           
 }
 
-
-.jobtitle-inner, h3 {
+.jobtitle-inner h3 {
     color:#FFF;
     font-weight: bold;
     padding-top: 5px;
+    transition: (3s);
+
+}
+
+.jobtitle-inner :hover {
+    filter: blur(2px)
 }
 
 .mist {
@@ -99,13 +103,75 @@ table {
     z-index: -1;
 }
 
-.marketing {
+.padding h1 {
     white-space: nowrap;
-    position: left;
-    font-size: 5vw;
+    position: absolute;
+    /*font-size: 5vw;*/
     padding: 1rem;
     display: block;
-    color: #fff;
+    color: #4a4a4a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vh;
+    font-weight: 400px;
+    margin-bottom: 0rem;
+    text-transform: uppercase;
+    margin:auto;
+}
+
+
+.padding {
+    padding: 45px 0;
+}
+
+.padding img {
+    width: 100%;
+}
+
+.col-md-6 {
+  vertical-align:middle;
+  text-align:center;
+  padding:1rem;
+}
+
+.col-md-4 {	
+  vertical-align:middle;
+  text-align:center;
+  padding:1rem;
+}
+
+.lead {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.background {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+     background: url('../images/background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+   
+}
+
+.container-fluid h3 {
+    margin: 3.125rem;
+    
+}
+
+.col-sm-4 {
+    background-color: #202121;
+}
+
+.footer h3 {
+    width: 100%;
+    color: #ffffff;
+    font-size: xx-large;
 }
 
 
