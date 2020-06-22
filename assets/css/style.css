@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300,200,300,400,500,600,700|family=Roboto&display=swap:wght@300,200,300,400,500,600,700');
 
 /*-------------------------------------------- general body html styling --------------------------------------------------------------------*/
 * {  
@@ -19,6 +19,7 @@ html, body {
     background-color:#FFFFFF;
 	}  
 
+
 h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {  
 	margin: 20px 0;  
 	}  
@@ -26,6 +27,10 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
 h3 {
     color: #FFFFFF;
   
+}
+
+.header {
+    margin: 0;
 }
 
 
@@ -225,7 +230,9 @@ table {
         }
       }
 
-@media (min-width: 1024px){
+
+
+/*@media (min-width: 1024px){
     .navbar-expand-lg {
         flex-direction: row;
         flex-wrap: nowrap;
