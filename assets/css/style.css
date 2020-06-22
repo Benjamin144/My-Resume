@@ -33,24 +33,37 @@ h3 {
     margin: 0;
 }
 
+.navbar-brand {
+     background: url('../images/mvn2d.png');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: auto;
+     min-height: 0px;
+     transition: all; 
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+
+}
+
 
     .navbar{
     background-color: #0b36c3 !important;
     
     }
 
-    .navbar2 {
+    .orangered {
         background-color: orangered !important;
 
     }
 
-    .navbar3 {
-    background-color: greenyellow !important;
+    .green {
+    background-color: #5eb95e !important;
     
     }
 
-    .navbar4 {
-        background-color: default !important;
+    .indigo {
+        background-color: indigo !important;
 
     }
 
