@@ -244,6 +244,25 @@ table {
       }
 
 
+.div.col-12.page-title.light i.page-title-boxed {
+    background-color: rgba(59,63,80,.6);
+}
+
+div.col-12.page-title.light {
+    color: #000;
+}
+
+.jumbotron {
+
+    padding-top: 10rem;
+    padding-right: 6rem;
+    padding-bottom: 10rem;
+    padding-left: 6rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+}
+
 
 /*@media (min-width: 1024px){
     .navbar-expand-lg {
