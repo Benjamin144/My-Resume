@@ -7,7 +7,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <meta name="description" content="" />
-    <title>Jumbotron Template · Bootstrap</title>
+    <title>About Me</title>
     <link
       rel="canonical"
       href="https://getbootstrap.com/docs/4.5/examples/jumbotron/"
@@ -102,7 +102,7 @@
                 class="btn btn-outline-success my-2 my-sm-0"
                 type="submit"
               >
-                Search
+               <a href="https://www.google.com/">Search</a>
               </button>
             </form>
           </div>
@@ -113,20 +113,42 @@
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
         <div class="container">
-          <div class="col-12 page-title light"><span class="fa fa-user fa-2x page-tile-icon"></span><h1 class="display-3">ABOUT <i class="page-title-boxed light"><strong>ME</strong></i></h1></div>
+          <div class="col-12 page-title light"><span class="fa fa-user fa-2x page-tile-icon"></span><h1 class="display-3">ABOUT <i class="page-title-boxed light"><strong>ME..</strong></i></h1></div>
           <p>
-            This is a template for a simple marketing or informational website.
-            It includes a large callout called a jumbotron and three supporting
-            pieces of content. Use it as a starting point to create something
-            more unique.
+            I like to collaborate with cross-functional roles, this is an important aspect of my working life. We can make more positive user experiences right from the start'
           </p>
-          <p>
-            <a class="btn btn-primary btn-lg" href="#" role="button"
-              >Learn more »</a
-            >
-          </p>
+         
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+  Launch my full bio here
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">My Bio</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <!--<button type="button" class="btn btn-primary">Understood</button>-->
+      </div>
+    </div>
+  </div>
+</div>
         </div>
       </div>
+
+
+        
+
 
       <div class="container">
         <!-- Example row of columns -->
@@ -182,60 +204,11 @@
    </section> 
 
     <!-- Button trigger modal -->
-<section>
-    <button
-      type="button"
-      class="btn btn-primary"
-      data-toggle="modal"
-      data-target="#staticBackdrop"
-    >
-      Launch static backdrop modal
-    </button>
 
-    <!-- Modal -->
-    <div
-      class="modal fade"
-      id="staticBackdrop"
-      data-backdrop="static"
-      data-keyboard="false"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="staticBackdropLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            ...
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-dismiss="modal"
-            >
-              Close
-            </button>
-            <button type="button" class="btn btn-primary">Understood</button>
-          </div>
-        </div>
-      </div>
-    </div>
-</section>
     <section id="backdrop-outer">
       <div id="backdrop-image"></div>
     </section>
+    <div class="ak-idun"></div>
 
     <!-------------------------- Footer responsiveness  ----------------------------------------->
 
@@ -311,179 +284,3 @@
   </body>
 </html>
 
-<!--<div class="container">
-      <div class="row">
-        <header
-          class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
-        >
-          <a href="#nearly_last_paragraph" class="navbar-brand"
-            ><span><h5>'Joseph Roberts'</h5></span></a
-          >
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <id class="navbar-toggler-icon" />
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html"
-                  >About<span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="skills.html">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </header>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 hide-medium">
-          <div class="ml-auto text-center pl-2">
-            <div class="LI-badge-container text-center">
-              <div class>
-                <div class>
-                  <div class="LI-profile-pic-container pt-4">
-                    <div class="LI-img-wrapper">
-                      <img
-                        class="LI-profile-pic"
-                        src="#.jpeg"
-                        alt="Joseph Roberts"
-                        loading="j"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!--<div class="site-page about-page">
-
-<div class="row text-center noselect">
-
-<div class="col-12 page-title light">
-
-<i class="fa-fa-user"></i>
-
-</div>
-
-</div>
-
-</div>
-
-    
-
-      <div class="col-lg-4">
-
-        <article>
-
-          <h2>Work History</h2>
-
-          <p class="lead">
-
-            Lorem ipsum, dolor sit amet, consectetur adipiscing elit. Mauris
-
-            rutrum porta dolor. Ut ullamcorper nibh accumsan scelerisque
-
-            blandit. Mauris augue leo, tempus at vulputate id, porta quis magna.
-
-            Sed eget elit iaculis, volutpat diam sed, dapibus mauris. Vivamus
-
-            nec elit vitae elit maximus eleifend. Praesent sed ex in erat
-
-            accumsan tincidunt. Praesent vitae mi eu ligula blandit pharetra in
-
-            nec leo. Fusce hendrerit tortor quis faucibus egestas. In metus
-
-            erat, viverra nec fermentum vel, viverra quis lectus. Aliquam vitae
-
-            leo at metus auctor consectetur. Donec a quam sit amet nulla
-
-            hendrerit eleifend. Suspendisse est libero, consectetur et nibh nec,
-
-            imperdiet viverra ante. Suspendisse vitae nisl enim.
-
-          </p>
-
-        </article>
-
-      </div>
-
-
-
- <div class="padding"></div>
-
-    <div class="container"></div>
-
-    <div class="row">
-
-      <div class="col-sm-6">
-
-        <img
-
-          src="joe.jpg"
-
-          alt="joe"
-
-          class="rounded-circle"
-
-          height="75%"
-
-          width="30%"
-
-        />
-
-      </div>
-
-    </div>
-      <div class="col-lg-4">
-
-        <article>
-
-          <h2>Educational History</h2>
-
-          <p class="lead">
-
-            vitae rutrum nisl. Mauris vehicula eu turpis nec ultrices. Aliquam
-
-            erat volutpat. Quisque et velit at erat eleifend accumsan. Interdum
-
-            et malesuada fames ac ante ipsum primis in faucibus. Sed at gravida
-
-            metus, id aliquet nisl. Vestibulum id iaculis augue. Ut eget justo
-
-            sit amet justo tristique rutrum nec eu ligula. Maecenas lacinia
-
-            luctus metus. Suspendisse nec erat in felis vehicula varius. Etiam
-
-            quis risus dignissim, efficitur est eget, accumsan nunc. Maecenas
-
-            quis mi id tellus condimentum pulvinar. Vivamus sit amet lorem urna.
-
-            Phasellus non accumsan augue.
-
-          </p>
-
-        </article>
-
-      </div>-->

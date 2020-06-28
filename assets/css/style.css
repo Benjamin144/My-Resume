@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300,200,300,400,500,600,700|family=Roboto&display=swap:wght@300,200,300,400,500,600,700');
 
-/*-------------------------------------------- general body html styling --------------------------------------------------------------------*/
+/*-------------------------------------------- general body html styling */
 * {  
 	vertical-align: baseline;  
 	font-family: inherit;  
@@ -24,6 +24,8 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
 	margin: 20px 0;  
 	}  
 
+
+
 h3 {
     color: #FFFFFF;
   
@@ -33,17 +35,14 @@ h3 {
     margin: 0;
 }
 
+/*-------------------------------------------- navigational bar styling*/
+
 .navbar-brand {
      background: url('../images/mvn2d.png');
      background-position: center;
      background-repeat: no-repeat;
      background-size: auto;
      min-height: 0px;
-     transition: all; 
-    -webkit-transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
-
 }
 
 
@@ -72,23 +71,22 @@ h3 {
 
     }
 
-  
-
-
 .navbar .navbar-nav li a:hover, .navbar .navbar-nav  {
+    height: 30px !important;
     text-decoration: none !important;
     color: rgb(250, 250, 114)!important;
-  
+    border-bottom: 1px solid transparent !important;
+    transition: border-bottom 0.7s !important;
+    -webkit-transition: all .7s ease-in-out !important;
+    -moz-transition: all .7s ease-in-out !important;
+    -o-transition: all .7s ease-in-out !important;
 }
 
+.navbar-nav li a:hover{
+transition: color 0.7s !important;
+}
 
-
-  
-
-
-
-
-        /*-------------------------------------------- full width background image ------------------------------------------------------------------*/
+        /*-------------------------------------------- full width background images */
 
 .mainframe {
     height: 980px;
@@ -101,14 +99,73 @@ h3 {
     display: flex;
     align-items: center;
     justify-content:center;
-   
-
 }
+
+
+.background {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+     background: url('../images/background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+   
+}
+
+.whelen-arc {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+     background: url('../images/whelen-arc.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+   
+}
+
+.christelle {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+     background: url('../images/christelle.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+   
+}
+
+.ak-idun {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+     background: url('../images/ak-idun.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+ /*-------------------------------------------- landing page styling */
 
 .mainframe-outer {
     height: 980px;
     width: 1000px;
-
 }
 
 .myname h1  {
@@ -116,8 +173,7 @@ h3 {
     font-size: 350%;
     font-weight: 500%;
     margin-bottom: 2rem;
-    letter-spacing: 0.5rem;
-           
+    letter-spacing: 0.5rem;       
 }
 
 .jobtitle-inner h3 {
@@ -125,7 +181,6 @@ h3 {
     font-weight: bold;
     padding-top: 5px;
     transition: (3s);
-
 }
 
 .jobtitle-inner :hover {
@@ -133,7 +188,6 @@ h3 {
 }
 
 .mist {
-
     position: absolute;
     top: 0;
     left: 0;
@@ -146,6 +200,8 @@ h3 {
     z-index: -1;
 }
 
+/*-------------------------------------------------general body styling */
+
 .padding h1 {
     white-space: nowrap;
     position: relative;
@@ -156,14 +212,13 @@ h3 {
     font-size: 4vh;
     font-weight: 400px;
     margin-bottom: 0rem;  
-    scroll-margin-top: 5rem; /* whatever is a nice number that gets you past the header */
+    scroll-margin-top: 5rem; 
     float: right;
     
 }
 
 .about-us h2 {
     padding: 45px 0;
-
 }
 
 .padding {
@@ -192,42 +247,13 @@ h3 {
     text-justify: inter-word;
 }
 
-.background {
-    height: 100vh;
-    width: 100vw;
-    position: relative;
-     background: url('../images/background.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-   
-}
 
 .container-fluid h3 {
-    margin: 3.125rem;
-    
-}
-
-
-.col-sm-4 {
-   
-    background-color: #4a4a4a;
- 
-}
-
-.footer {
-    width: 100%;
-    color: #FFFFFF;
-    font-size: xx-large;
-    z-index:1;
+    margin: 3.125rem; 
 }
 
 .fas-fa-phone {
-    color: #ffffff;
+    color: #202121;;
 }
 
 .icon {
@@ -245,6 +271,7 @@ table {
 	}
 
 .bd-placeholder-img {
+    padding: 22px;
     font-size: 1.125rem;
     text-anchor: middle;
     -webkit-user-select: none;
@@ -259,7 +286,6 @@ table {
         }
       }
 
-
 .div.col-12.page-title.light i.page-title-boxed {
     background-color: rgba(59,63,80,.6);
 }
@@ -272,12 +298,48 @@ div.col-12.page-title.light {
 
     padding-top: 10rem;
     padding-right: 6rem;
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
     padding-left: 6rem;
     margin-bottom: 2rem;
     background-color: #e9ecef;
     border-radius: .3rem;
 }
+
+
+.carousel-caption {
+ padding-top: 5px;
+ padding-bottom: 20px;
+
+}
+
+.carousel-caption .text-left .text-right{
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+/*---------------------------------------footer element styling */
+
+
+
+.col-sm-4 {
+    background-color: #4a4a4a
+ 
+}
+
+.footer {
+    width: 100%;
+    color:#202121;
+    font-size: xx-large;
+    z-index:1;
+}
+
 
 
 /*@media (min-width: 1024px){
