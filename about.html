@@ -41,167 +41,262 @@
   <link href="jumbotron.css" rel="stylesheet" />
 
   <body class="lang-en">
-    
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top orangered">
-      <a class="navbar-brand" href="index.html"><img src="../assets/images/mvn2d.png" alt="">
-        </a>
-      
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarsExampleDefault"
-            aria-controls="navbarsExampleDefault"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top orangered">
+      <a class="navbar-brand" href="index.html"
+        ><img src="../assets/images/mvn2d.png" alt="" />
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >About<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li>
+            <a class="nav-link" href="skills.html">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="dropdown01"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Dropdown</a
+            >
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="text"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            <a href="https://www.google.com/">Search</a>
           </button>
+        </form>
+      </div>
+    </nav>
 
-          <div class="collapse navbar-collapse" id="navbarsExampleDefault"> 
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="#"
-                  >About<span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li>
-                <a class="nav-link" href="skills.html">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="dropdown01"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  >Dropdown</a
-                >
-                <div class="dropdown-menu" aria-labelledby="dropdown01">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
+    <section>
+      <main role="main">
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="jumbotron">
+          <div class="container">
+            <div class="col-12 page-title light">
+              <span class="fa fa-user fa-2x page-tile-icon"></span>
+              <h1 class="display-3">
+                ABOUT
+                <i class="page-title-boxed light"><strong>ME..</strong></i>
+              </h1>
+            </div>
+            <p>
+              I like to collaborate with cross-functional roles, this is an
+              important aspect of my working life. We can make more positive
+              user experiences right from the start'
+            </p>
+
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="#staticBackdrop"
+            >
+              View Profile »
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="staticBackdrop"
+              data-backdrop="static"
+              data-keyboard="false"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div
+                class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+              >
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">
+                      Joseph Anthony Roberts
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Hello, I’m a British Website developer with significant
+                    experience with classic front-end frameworks
+                    including Bootstraps, Foundation, Semantic UI, Pure,
+                    and UKit. My knowledge also coincides with structuring
+                    technologies such as HTML, CSS, JQuery
+                    Django, React, Angular, Ruby and Laravel. I am also a
+                    startup and I am in the early-stages of my development, and
+                    always offering to make useful contributions towards
+                    successful product launches in multiple industries and
+                    markets around the world. My idea is to build applications
+                    which run as a services and whosoever seeks and finds it
+                    useful may also deploy or manage such applications for open
+                    source development. My intentions are to create practical
+                    and innovative solutions in response to social culture and
+                    environmental differences. I reside in the leafy county of
+                    Worcestershire in the UK, for most of my life. During this
+                    time I earned an Higher National Diploma in Industrial
+                    design. I believe design and technology heavily influences
+                    the work that I do and so I like to reflect that in some way
+                    or another.
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <!--<button type="button" class="btn btn-primary">Understood</button>-->
+                  </div>
                 </div>
-              </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input
-                class="form-control mr-sm-2"
-                type="text"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button
-                class="btn btn-outline-success my-2 my-sm-0"
-                type="submit"
-              >
-               <a href="https://www.google.com/">Search</a>
-              </button>
-            </form>
-          </div>
-        </nav>
-    
-<section>
-    <main role="main">
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <div class="container">
-          <div class="col-12 page-title light"><span class="fa fa-user fa-2x page-tile-icon"></span><h1 class="display-3">ABOUT <i class="page-title-boxed light"><strong>ME..</strong></i></h1></div>
-          <p>
-            I like to collaborate with cross-functional roles, this is an important aspect of my working life. We can make more positive user experiences right from the start'
-          </p>
-         
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
-  Launch my full bio here
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel">My Bio</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <!--<button type="button" class="btn btn-primary">Understood</button>-->
-      </div>
-    </div>
-  </div>
-</div>
-        </div>
-      </div>
-
-
-        
-
-
-      <div class="container">
-        <!-- Example row of columns -->
-        <div class="row">
-          <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>
-              Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
-              tellus ac cursus commodo, tortor mauris condimentum nibh, ut
-              fermentum massa justo sit amet risus. Etiam porta sem malesuada
-              magna mollis euismod. Donec sed odio dui.
-            </p>
-            <p>
-              <a class="btn btn-secondary" href="#" role="button"
-                >View details »</a
-              >
-            </p>
-          </div>
-          <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>
-              Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
-              tellus ac cursus commodo, tortor mauris condimentum nibh, ut
-              fermentum massa justo sit amet risus. Etiam porta sem malesuada
-              magna mollis euismod. Donec sed odio dui.
-            </p>
-            <p>
-              <a class="btn btn-secondary" href="#" role="button"
-                >View details »</a
-              >
-            </p>
-          </div>
-          <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>
-              Donec sed odio dui. Cras justo odio, dapibus ac facilisis in,
-              egestas eget quam. Vestibulum id ligula porta felis euismod
-              semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-              condimentum nibh, ut fermentum massa justo
-            </p>
-            <p>
-              <a class="btn btn-secondary" href="#" role="button"
-                >View details »</a
-              >
-            </p>
+              </div>
+            </div>
           </div>
         </div>
 
-        <hr />
-      </div>
-      <!-- /container -->
-    </main>
-   </section> 
+        <!--<div class="container">
+          <!-- Example row of columns
+          <div class="row">
+            <div class="col-md-4">
+              <h2>Joseph Roberts</h2>
+              <h4>
+                Front End Developer josephroberts@email.com University of East
+                London
+              </h4>
+            </div>
+          </div>
+        </div>-->
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">
+              Joseph Roberts |
+              <span class="text-muted">Front End Developer</span>
+            </h2>
+            <p class="lead">
+              I work with classic front-end frameworks including Bootstraps,
+              coinciding with HTML, CSS and Javascript platform technology.
+            </p>
+          </div>
+
+          <div class="col-md-5 col-sm-12 hide-medium">
+            <div class="jrLI-badge-container text-center">
+                  <div class="">
+                    <div class="">
+                      <div class="jrLI-profile-pic-container pt-4">
+                        <div class="jrLI-img-wrapper">
+                          <img
+                            class="jrLI-profile-pic"
+                            src="jr-initial.jpg"
+                            alt="Joseph Roberts"
+                            loading="lazy"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-5">
+                      <div class="jrLI-name mb-1">
+                        <a
+                          href="https://www.linkedin.com/in/joseph-roberts-4a2a53122/?trk=public-profile-join-page"
+                          >Joseph Roberts</a
+                        >
+                      </div>
+                      <div class="jrLI-title">
+                        <span role="image">📡</span> Front End Developer
+                      </div>
+                    </div>
+                  </div>
+                  <div class="">
+                    <div class="">josephroberts@email.com</div>
+                    <div class="">
+                      <a
+                        href="https://www.linkedin.com/edu/school?id=4083007"
+                        >The Colchester Institute</a
+                      >
+                    </div>
+                  </div>
+                  <div class="mt-4">
+                    <a
+                      class="btn btn-primary"
+                      role="button"
+                      href="https://www.linkedin.com/in/josephroberts?trk=profile-badge-cta"
+                      >Linkedin Profile</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!--<svg
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500"
+              xmlns="http://www.w3.org/2000/svg"
+              preserveaspectratio="xMidYMid slice"
+              focusable="false"
+              role="img"
+              aria-label="Placeholder: 500x500"
+            >
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#eee"></rect>
+              <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+            </svg>-->
+            </div>
+          
+
+        <div class="col-md-4">
+          <div class="col-md-4"></div>
+        </div>
+        <!-- /container -->
+      </main>
+    </section>
 
     <!-- Button trigger modal -->
 
@@ -255,11 +350,11 @@
           ></a>
         </div>
       </div>
-       <p class="float-right"><a href="#">Back to top</a></p>
-        <p>
-          © 2017-2020 Company, Inc. · <a href="#">Privacy</a> ·
-          <a href="#">Terms</a>
-        </p>
+      <p class="float-right"><a href="#">Back to top</a></p>
+      <p>
+        © 2017-2020 Company, Inc. · <a href="#">Privacy</a> ·
+        <a href="#">Terms</a>
+      </p>
     </footer>
 
     <!--Associated links for styles & frameworks-->
@@ -283,4 +378,3 @@
     ></script>
   </body>
 </html>
-

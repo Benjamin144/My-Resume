@@ -159,7 +159,26 @@ transition: color 0.7s !important;
     display: flex;
     align-items: center;
     justify-content:center;
+
 }
+
+
+
+    .pb-3 {
+    height: 93px;
+    width: 21px;
+    position: relative;
+     background: url('../images/logo_linkedin_flat_white_93x21.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+
 
  /*-------------------------------------------- landing page styling */
 
