@@ -324,6 +324,10 @@ div.col-12.page-title.light {
     border-radius: .3rem;
 }
 
+.wrapper {
+     position: left;
+}
+
 
 .carousel-caption {
  padding-top: 5px;
@@ -342,6 +346,19 @@ div.col-12.page-title.light {
     color: #fff;
     text-align: center;
 }
+
+.featurette-wrapper  {
+    position: absolute;
+    left: 425px;
+    
+}
+
+.p-centered {
+    position: fixed;
+    left:425px;
+    top: 50px;
+}
+
 
 /*---------------------------------------footer element styling */
 
