@@ -266,6 +266,11 @@ transition: color 0.7s !important;
     text-justify: inter-word;
 }
 
+.carousel-caption p {
+    color: black;
+    z-index: 1;
+}
+
 
 .container-fluid h3 {
     margin: 3.125rem; 
@@ -335,17 +340,6 @@ div.col-12.page-title.light {
 
 }
 
-.carousel-caption .text-left .text-right{
-    position: absolute;
-    right: 15%;
-    bottom: 20px;
-    left: 15%;
-    z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-    text-align: center;
-}
 
 .featurette-wrapper  {
     position: absolute;
@@ -358,6 +352,15 @@ div.col-12.page-title.light {
     left:425px;
     top: 50px;
 }
+
+
+
+.carousel-inner > .item > img {
+  width:640px;
+  height:360px;
+}
+
+
 
 
 /*---------------------------------------footer element styling */
