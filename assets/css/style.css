@@ -62,7 +62,7 @@ h3 {
     }
 
     .green {
-    background-color: #5eb95e !important;
+    background-color: #0b5a0b !important;
     
     }
 
@@ -221,6 +221,29 @@ transition: color 0.7s !important;
 
 /*-------------------------------------------------general body styling */
 
+.bg-color-personal-info{
+    background-color: #f4f4f4
+}
+
+.section-heading-uppercase {
+    float: left;
+}
+
+.display-1 {
+    color: rgb(196, 62, 13)
+}
+.display-2 {
+    color: hsl(120, 78%, 20%) 
+}
+
+.display-3 {
+    color: purple;
+}
+
+
+
+/*------------------------------------------------general color styling*/
+
 .padding h1 {
     white-space: nowrap;
     position: relative;
@@ -248,7 +271,6 @@ transition: color 0.7s !important;
     width: 100%;
 }
 
-
 .col-md-6 h1 {
   vertical-align:middle;
   text-align:center;
@@ -272,13 +294,28 @@ transition: color 0.7s !important;
 }
 
 
-.container-fluid h3 {
-    margin: 3.125rem; 
+
+
+.fa-user {
+
+    color:rgb(224, 79, 53);
+    margin: 75px 75px;
+    
 }
 
-.fas-fa-phone {
-    color: #202121;;
+.fa-cogs  {
+    
+    color:hsl(120, 78%, 20%);
+    margin: 75px 75px;
+    
 }
+
+.fa-phone {
+
+    color:rgb(201, 41, 201);
+    margin: 75px 75px;
+    
+
 
 .icon {
     max-width: 200px;
@@ -289,7 +326,7 @@ li, dd, blockquote {
 	margin-left: 40px;  
 	}  
 
-table {  
+.table {  
 	border-collapse: collapse;  
 	border-spacing: 0;  
 	}
@@ -304,14 +341,18 @@ table {
     user-select: none;
       }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          justify-content: flex-start;
         }
       }
 
 .div.col-12.page-title.light i.page-title-boxed {
     background-color: rgba(59,63,80,.6);
+   
 }
 
 div.col-12.page-title.light {
@@ -324,19 +365,21 @@ div.col-12.page-title.light {
     padding-right: 6rem;
     padding-bottom: 5rem;
     padding-left: 6rem;
-    margin-bottom: 2rem;
     background-color: #e9ecef;
     border-radius: .3rem;
 }
 
 .wrapper {
      position: left;
+     left: 300px;
+     top: 300px;
+
 }
 
 
-.carousel-caption {
+.carousel-caption .text-center{
  padding-top: 5px;
- padding-bottom: 20px;
+ padding-bottom: 20px;  
 
 }
 
@@ -358,9 +401,13 @@ div.col-12.page-title.light {
 .carousel-inner > .item > img {
   width:640px;
   height:360px;
+  color: transparent;
+
 }
 
-
+.uppercase {
+    text-transform: uppercase;
+}
 
 
 /*---------------------------------------footer element styling */
@@ -368,17 +415,16 @@ div.col-12.page-title.light {
 
 
 .col-sm-4 {
-    background-color: #4a4a4a
+    background-color: #6c757d;
  
 }
 
 .footer {
     width: 100%;
-    color:#202121;
+    background-color:#6c757d;
     font-size: xx-large;
     z-index:1;
 }
-
 
 
 /*@media (min-width: 1024px){
@@ -399,7 +445,7 @@ div.col-12.page-title.light {
     }
     .navbar-expand-lg .navbar-toggler {
         display: none;
-    }
+    }*/
 
 
 
