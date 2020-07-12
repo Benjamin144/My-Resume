@@ -26,10 +26,10 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
 
 
 
-h3 {
+/*h3 {
     color: #FFFFFF;
   
-}
+}*/
 
 .header {
     margin: 0;
@@ -212,7 +212,7 @@ transition: color 0.7s !important;
     left: 0;
     height: 100vh;
     width: 80vw;
-    background-color: #F5F5F5;
+    background-color: #f5f5f5;
     margin-bottom: 40px;
     padding-bottom: 0px;
     text-align:center;
@@ -222,7 +222,17 @@ transition: color 0.7s !important;
 /*-------------------------------------------------general body styling */
 
 .bg-color-personal-info{
-    background-color: #f4f4f4
+    background-color: #f4f4f4;
+}
+
+.personal-info {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info .key {
+
 }
 
 .section-heading-uppercase {
@@ -238,6 +248,19 @@ transition: color 0.7s !important;
 
 .display-3 {
     color: purple;
+}
+
+#myimage {
+    height:600px;
+  }
+
+#leftside{
+    padding-top: 600px;
+
+    width: 33%;
+    float: left;
+    background-color: blue;
+    margin: 5px;
 }
 
 
@@ -365,7 +388,6 @@ div.col-12.page-title.light {
     padding-right: 6rem;
     padding-bottom: 5rem;
     padding-left: 6rem;
-    background-color: #e9ecef;
     border-radius: .3rem;
 }
 
@@ -384,7 +406,7 @@ div.col-12.page-title.light {
 }
 
 
-.featurette-wrapper  {
+.featurette-heading  {
     position: absolute;
     left: 425px;
     
@@ -415,7 +437,7 @@ div.col-12.page-title.light {
 
 
 .col-sm-4 {
-    background-color: #6c757d;
+    background-color: red;
  
 }
 
