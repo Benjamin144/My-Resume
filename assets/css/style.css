@@ -10,22 +10,18 @@
 	border: none;  
 	padding: 0;  
 	margin: 0;  
-	}  
+}  
 
 html, body {  
 	padding: 5px;
     min-width: 100vw;  
     width: 100vw;
     height: 100vh;
-    
-	}  
-
+}  
 
 h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {  
 	margin: 20px 0;  
-	}  
-
-
+}  
 
 .text-center {
     text-align: center!important;
@@ -45,31 +41,28 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
      min-height: 0px;
 }
 
-
-    .navbar{
-        background-color: #0b36c3 !important;
+.navbar{
+    background-color: #0b36c3 !important;
     
-    }
+}
 
-    .navbar-nav {
+.navbar-nav {
 
-        flex-direction: row;
-    }
+    flex-direction: row;
+}
 
-    .orangered {
-        background-color: orangered !important;
+.orangered {
+    background-color: orangered !important;
 
-    }
+}
 
-    .green {
-        background-color: rgb(10, 191, 83) !important; 
-    
-    }
+.green {
+    background-color: rgb(10, 191, 83) !important; 
+}
 
-    .indigo {
-        background-color: indigo !important;
-
-    }
+.indigo {
+    background-color: indigo !important;
+}
 
 .navbar .navbar-nav li a:hover, .navbar .navbar-nav {
     height: 30px !important;
@@ -83,7 +76,7 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
 }
 
 .navbar-nav li a:hover{
-transition: color 0.7s !important;
+    transition: color 0.7s !important;
 }
 
         /*-------------------------------------------- full width background images */
@@ -101,7 +94,6 @@ transition: color 0.7s !important;
     justify-content:center;
 }
 
-
 .background {
     height: 100vh;
     width: 100vw;
@@ -114,7 +106,6 @@ transition: color 0.7s !important;
     display: flex;
     align-items: center;
     justify-content:center;
-   
 }
 
 .whelen-arc {
@@ -128,8 +119,7 @@ transition: color 0.7s !important;
     background-size: cover;
     display: flex;
     align-items: center;
-    justify-content:center;
-   
+    justify-content:center; 
 }
 
 .christelle {
@@ -144,7 +134,6 @@ transition: color 0.7s !important;
     display: flex;
     align-items: center;
     justify-content:center;
-   
 }
 
 .ak-idun {
@@ -159,26 +148,7 @@ transition: color 0.7s !important;
     display: flex;
     align-items: center;
     justify-content:center;
-
 }
-
-
-
-    .pb-3 {
-    height: 93px;
-    width: 21px;
-    position: relative;
-     background: url('../images/logo_linkedin_flat_white_93x21.png') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-
-}
-
 
  /*-------------------------------------------- landing page styling */
 
@@ -212,13 +182,11 @@ transition: color 0.7s !important;
     left: 0;
     height: 100vh;
     width: 80vw;
-   
     margin-bottom: 40px;
     padding-bottom: 0px;
     text-align:center;
     z-index: -1;
 }
-
 /*-------------------------------------------------general body styling */
 
 .bg-color-personal-info{
@@ -231,7 +199,6 @@ transition: color 0.7s !important;
     clear: both;
 }
 
-
 .section-heading-uppercase {
     float: left;
     background-color: #f8f9fa !important;
@@ -239,14 +206,10 @@ transition: color 0.7s !important;
 
 .display-1 {
     color: rgb(196, 62, 13);
-    
-   
-
 }
+
 .display-2 {
-    color: hsl(120, 78%, 20%)
-    
-    
+    color: hsl(120, 78%, 20%)       
 }
 
 .display-3 {
@@ -255,8 +218,14 @@ transition: color 0.7s !important;
 
 .display-4 {
     position: relative;
+    left:20%;
     font-size: x-large;
-    color: #333;
+    color: #f8f9fa;  
+    /*color: #eeebe8;*/
+    text-shadow: 0.1em 0.1em 0.1em #3e3f3a, 0 0 0.1em #3e3f3a, 0 0 0.1em #3e3f3a, 0 0 0.2em #3e3f3a, 0 0 0.2em #3e3f3a, 0 0 0.3em #3e3f3a;
+    
+  
+  
 }
 
 #myimage {
@@ -274,6 +243,38 @@ transition: color 0.7s !important;
 .animate__animated.animate__bounce {
   --animate-duration: 2s;
 }
+
+#hero-container {
+    width:300px;
+    height:300px;
+    border-style: solid;
+    border-color:#cccccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.inner {
+    float: right;
+}
+
+
+
+#hero-cover-bg {
+    background: url('../images/fella3.jpg') no-repeat center;
+    background-size:contain;
+    height: 300%; 
+    width: 300%; 
+    max-width: 300px; 
+    max-height: 300px;
+    border-radius: 100%;
+    margin: 0 auto;
+    background-color: rgb(98, 76, 76);
+}
+
+
+
+
 /*------------------------------------------------general color styling*/
 
 .padding h1 {
@@ -287,8 +288,7 @@ transition: color 0.7s !important;
     font-weight: 400px;
     margin-bottom: 0rem;  
     scroll-margin-top: 5rem; 
-    float: right;
-    
+    float: right; 
 }
 
 .about-us h2 {
@@ -331,6 +331,8 @@ transition: color 0.7s !important;
     max-width: 640px;
     border-color: rgb(224, 79, 53);
     font-weight: bold;
+    
+    right:10%;
 }
 
 .button{
@@ -338,12 +340,10 @@ transition: color 0.7s !important;
     margin: 0 auto;
 }
 
-
 .carousel-caption p {
     color: black;
     z-index: 1;
 }
-
 
 .fa-tv {
     Margin: auto;
@@ -361,27 +361,21 @@ transition: color 0.7s !important;
 }
 
 .fa-user {
-
     color:rgb(224, 79, 53);
     margin: 75px 75px;
-    
 }
 
 .fa-cogs  {
-    
     color:hsl(120, 78%, 20%);
     margin: 75px 75px;
-    
 }
 
 .fa-phone {
-
     color:rgb(201, 41, 201);
     margin: 75px 75px;
 }
 
 .fa-globe-europe {
-
    margin-top: 2px 2px;
    color: rgb(40, 153, 46);
 }
@@ -404,12 +398,12 @@ transition: color 0.7s !important;
 
 li, dd, blockquote {  
 	margin-left: 40px;  
-	}  
+}  
 
 .table {  
 	border-collapse: collapse;  
 	border-spacing: 0;  
-	}
+}
 
 .bd-placeholder-img {
     padding: 22px;
@@ -419,35 +413,36 @@ li, dd, blockquote {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-      }
+}
 
 @media (max-width: 575.98px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-          flex-direction: row;
-          flex-wrap: nowrap;
-          justify-content: flex-start;
-        }
-      }
+.bd-placeholder-img-lg {
+    font-size: 3.5rem;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    }
+}
 
 @media (min-width: 992px) {
-        .col-lg-4{
-        flex: 0 0 33.333333%;
-        max-width: 33.333333%;
-}
+.col-lg-4{
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    }
 }
 
 @media (min-width: 768px) {
-        .col-md-6 {
-        flex: 0 0 50%;
-        max-width: 50%;
-}
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    }
 }
 
 @media (min-width: 576px) {
-        .col-sm-12 {
-        flex: 0 0 100%;
-        max-width: 100%;
+.col-sm-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    }
 }
 
 #your-custom-id p { margin: 0!important; line-height: 40px; }
@@ -458,7 +453,8 @@ li, dd, blockquote {
 #your-unique-id .av_one_half {
     margin-left: 1%!important;
     width: 49%!important;
-}}
+    }
+}
 
 .div.col-12.page-title.light i.page-title-boxed {
     background-color: #F8F8FA;
@@ -471,7 +467,6 @@ div.col-12.page-title.light {
 }
 
 .jumbotron {
-
     padding-top: 10rem;
     padding-right: 6rem;
     padding-bottom: 5rem;
@@ -480,25 +475,19 @@ div.col-12.page-title.light {
 }
 
 .wrapper {
-     position: left;
-     left: 300px;
-     top: 300px;
-
+    position: left;
+    left: 300px;
+    top: 300px;
 }
-
 
 .carousel-caption .text-center{
- padding-top: 31.25%;
- padding-bottom: 125%;  
-
+    padding-top: 31.25%;
+    padding-bottom: 125%;  
 }
-
-
 
 .featurette-heading  {
     position: relative;
-    left: 425px;
-    
+    left: 425px;  
 }
 
 .p-centered {
@@ -507,13 +496,10 @@ div.col-12.page-title.light {
     top: 50px;
 }
 
-
-
 .carousel-inner > .item > img {
-  width:4000%;
-  height:2250%;
-  color: transparent;
-
+    width:4000%;
+    height:2250%;
+    color: transparent;
 }
 
 .uppercase {
@@ -534,13 +520,12 @@ div.col-12.page-title.light {
 }
 
 .inner{
-  position: absolute;
-  top: 200px;
-  left: 500px;
-  color: red;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    color: red;
 }
 
-}
 :root{
     --white: #fff;
     --black: #000;
@@ -629,14 +614,9 @@ div.col-12.page-title.light {
     color: #c69 
 }
 
-
-
-
-
 /*---------------------------------------footer element styling */
 
 .footer-bg {
-
     /*background-color: #3e3f3a;*/
     /*color: #797062;*/
     background-color:rgb(0, 17, 44);
@@ -645,10 +625,9 @@ div.col-12.page-title.light {
     letter-spacing: 0.09rem;
 }
 
-
 .container-fluid {
     width: 100%;
-    background-color:#f8f9fa;
+    background-color: #f4f4f4;
     font-size: normal;
     z-index:1;
 }
@@ -656,6 +635,11 @@ div.col-12.page-title.light {
 .btn-position {
     top: 81vh;
     z-index:1;
+}
+
+.btn-lg {
+    position: relative;
+    left:21%; 
 }
 
 .more-btn {
