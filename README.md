@@ -157,22 +157,29 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   #### First Time Visitor Goals
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the person.
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
-        2. The main points are made immediately with the hero image
-        3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
+        1. Upon entering the site, users are met with a solid deep bl ue navigation bar to go to explore a choice of three other pages. Beneath the nav bar the user is impacted by a dynamic full width background image that bears my full animated name and 
+           job title. The user can click simultaneously switch between arrow and job title once clicked on scrolls down to the lower extremities of the page.  
+        2. Once there the user will quickly understand the purpose of the website which really is pre marketing a call to action, considering me as a potential employee, candidate or collaborator.
+        3. The user is free to scroll back up or back down the page to the footer, to see the details on how to stay in touch with me or choose to delve deeper into the website if still interested. With a handy 'back to the top' feature to save excessive scrolling.
 
     2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
-        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-        2. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-        3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
+        1. The site has been designed to aid the user in making simple traditional choices when navigating around the site and the use of catchy imagery has been chosen to maintain interest, throughout their journey.
+           Each nav bar item is featured to keep the user engaged as much as possible with delayed hover/time effect. The logo in the top right hand corner is non desript and it's purpose is to lead the user to the homepage when on other pages of the site.
+        2. In keeping with the home page style of presentation, I have kept the style very basic and honest with alot of white-space with symbolism. The idea behind this is to help the user push through the site as quickly as possible, only focussing in on what is necessary at the time of reading.
+           I have therefore minimized my profile to a modal button where again the user can breifly access it or stay interested.
+        3. When the user clicks on the Skills Page, they are met with more bold inviting images and quote to keep the user further engaged. Purpose being that it may help the user to focus on the content and information they were seeking. 
+           The use of the carousel is to further confirm the skillset on offer by me as a Front end web developer and how I would rate myself.
+        4. The user will be spending most of their time on this page, I have added a portfolio dropdown nav-item here so the user can see further examples of my learning of differing web development presentations.
+           On the final Contact Page the user can easily scroll down to a section where they have an option to get in touch with me 
+        
 
     3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
         1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
         2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-        3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
+        3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media links below which highlights the links to them.
 
 -   #### Returning Visitor Goals
 
@@ -183,31 +190,27 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
 
-        1. The navigation bar clearly highlights the "Contact Us" Page.
-        2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-        3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
+        1. The navigation bar has an opportnity to contact me with a 'Call to action' as a Nav-item link to the Contact Page.
+        2. The visitor can then  fill out a form on the page or are told that alternatively they can message the organisation on social media.
+        3. The footer contains links to the organisations Facebook, Twitter Reddit, Google, YouTube and Pinterest page as well as the organization's email.
         4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-        5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
+        5. The personal information section is set up to autofill 
 
     3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-        1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-        2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-        3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
 
+        1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
+        
 -   #### Frequent User Goals
 
     1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
 
-        1. The user would already be comfortable with the website layout and can easily click the banner message.
+        1. The user can use search components in the navigation bar to look for challenges
 
     2. As a Frequent User, I want to check to see if there are any new blog posts.
 
         1. The user would already be comfortable with the website layout and can easily click the blog link
 
-    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-        1. At the bottom of every page their is a footer which content is consistent throughout all pages.
-        2. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-        3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
+
 
 ### Further Testing
 
@@ -218,8 +221,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
+-   On some mobile devices the landing page background image appears to not fluidly stretchacross the extremities of the navigation bar. 
+-   A white gap can be seen down the sides of the landing page and navigation bar as a result looks wider
 -   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
 
 ## Deployment
@@ -278,7 +281,42 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+-   [Animate.css](https://animate.style/) : For intro annimation on Landing page
+
+-   [Clever Techie](https://www.youtube.com/watch?v=L0uNai3XyKQ) : For useful video tutorials discussing and demontrating Responsive Nav Bar with Bootstraps
+
+-   [Buckie Roberts (The New Boston)](https://www.youtube.com/watch?v=qIULMnbH2-o) : For useful video tutorials discussing and demontrating Bootstraps tips and tricks
+
+-   [Drew Ryan](https://www.youtube.com/watch?v=Zn64_IVLO88) : Took inspiration from building a Responsive Bootstrap Website Tutorial with Full Screen Landing Page
+
+-   [Lawrence McDaniel](lawrencemcdaniel.com/home) : Inspired by this absolute Legend of a Web developer
+
+-   [Stackoverflow)](https://stackoverflow.com/questions/19827605/change-bootstrap-navbar-collapse-breakpoint-without-using-less) : Change bootstrap navbar collapse breakpoint without using LESS
+
+-   [Perishable Press](https://perishablepress.com/a-killer-collection-of-global-css-reset-styles/) : Killer Collection of CSS Resets
+
+-   [Stock Adobe](https://stock.adobe.com/) : Took inspiration from Stock of Architural type Imagery
+
+-   [Google Images](https://https://www.google.com/search?q=images+of+mainframe+computer&rlz=1C1CHBF_enGB896GB896&sxsrf=ALeKk00SBTdlKtEkNjLq2buy-mTbJzwn6g:1592084670906&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjj0ovK4f_pAhVCZMAKHRZ4Ca4Q_AUoAXoECBMQAw&biw=1920&bih=975#imgrc=xgulmTYgskvm-M/) 
+                    For Landing page I took inspiration from google images of how mainframe servers have changed over the years
+
+-   [Snook](https://snook.ca/archives/html_and_css/font-size-with-rem) : Font sizing with rem
+
+-   [Stock Adobe](https://stock.adobe.com/) : Took inspiration from Stock of Architural type Imagery
+
+-   [Awwwards](https://www.awwwards.com/) : Took inspiration from 'self proclained' The awards of design, creativity and innovation on the internet
+
+-   [Hacker News](https://news.ycombinator.com/item?id=11098891) : Took inspiration from a paraphrased quote by Joe Armstrong
+
+-   [The Code Institute](https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+CF101+2017_T1/courseware/1f0ccaac7a3e43d895c1beae5363f46c/79eac486cc0c4c9aa54cbe54d009287c/?child=last) 
+                    Took inspiration from a series of Code Institute Tutorials - This was one of my favorites.
+
+
+
+
+
+   
+
 
 ### Content
 
@@ -295,3 +333,5 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 -   My Mentor Gerard McBride for continuous helpful feedback.
 
 -   Tutor support at Code Institute for their support.
+
+-   The Code Institute Slack community for their ongoing support.

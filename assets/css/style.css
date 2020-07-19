@@ -187,17 +187,10 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
     text-align:center;
     z-index: -1;
 }
+
 /*-------------------------------------------------general body styling */
 
-.bg-color-personal-info{
-    background-color: #f4f4f4;
-}
 
-.personal-info {
-    margin-bottom: 20px;
-    display: block;
-    clear: both;
-}
 
 .section-heading-uppercase {
     float: left;
@@ -272,7 +265,46 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
     background-color: rgb(98, 76, 76);
 }
 
+/*-------------------------------------------------Personal Info Styling */
 
+.bg-color-personal-info{
+    background-color: #f4f4f4;
+}
+
+.personal-info {
+    margin-bottom: 15px;
+    display: block;
+    clear: both;
+}
+
+.personal-info .key,
+.personal-info .value {
+    padding-right: 8px;
+    
+}
+
+
+.personal-info .key,
+.personal-info .value {
+    margin: 0;
+}
+
+.personal-info .key {
+    width: 30%;
+    margin-right: 2px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info .key p {
+    font-weight: 700;
+}
+
+.personal-info .value {
+    position: relative;
+    width: 60%;
+    
+}
 
 
 /*------------------------------------------------general color styling*/
@@ -306,6 +338,7 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
 .col{
     flex-basis: 0;
     flex-grow: 1;
+    
 }
 
 .col-md-6 h1 {
@@ -377,7 +410,7 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
 
 .fa-globe-europe {
    margin-top: 2px 2px;
-   color: rgb(40, 153, 46);
+   color: rgb(39, 41, 39);
 }
 
 .fa-code {
@@ -523,13 +556,52 @@ div.col-12.page-title.light {
     position: absolute;
     top: 200px;
     left: 500px;
-    color: red;
+    color: blue;
 }
+
+.col-sm-12 {
+    position: relative;
+    width: 100%;
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 0;
+    
+    
+}
+
+.progress-section {
+    margin: 4px 4px;
+    
+}
+
+.progress {
+    position: relative;
+    height: 25px;
+    top: 1px;
+    padding: 1px 1px;
+}
+
+
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 700;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background-color: transparent;
+    /*background-color: rgba(25,25,25,0.2);*/
+    top: 7px;
+    text-decoration : bold;
+}
+
 
 :root{
     --white: #fff;
     --black: #000;
-    --color_1: #EA2027;
+    --color_1: rgb(98, 76, 76);
     --color_2: #1F5295;
     --color_3: #89b743;
     --color_4: #e02a6d;
@@ -559,6 +631,7 @@ div.col-12.page-title.light {
     margin-bottom: 20px;
     position: relative;
     z-index: 1;
+    
 }
 .main-timeline .timeline-year:after{
     content: '';
@@ -602,6 +675,10 @@ div.col-12.page-title.light {
     letter-spacing: 1px;
 }
 
+.timeline-icon {
+color: rgb(40, 153, 46);
+}
+
 .fa-css3-alt{
     color: #2962ff;
 }
@@ -614,6 +691,36 @@ div.col-12.page-title.light {
     color: #c69 
 }
 
+
+.skill-column .skill-pct-text {
+    font-size: 1.75em;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*.text-center {
+    text-align: center!important;
+    color: rgb(98, 76, 76);;
+}
+
+.skill-column {
+    color: rgb(98, 76, 76);;
+}*/
+
+.mt-4, .my-4 {
+    margin-top: 1.5rem!important;
+}
+
+   .skill-column .skill-title {
+    font-size: 1.25em;
+    height: 50px;
+}
+
 /*---------------------------------------footer element styling */
 
 .footer-bg {
@@ -623,6 +730,10 @@ div.col-12.page-title.light {
     color: rgb(85, 90, 124);
     padding: 20px;
     letter-spacing: 0.09rem;
+}
+
+.footer-heading{
+    text-decoration: underline;
 }
 
 .container-fluid {
