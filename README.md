@@ -7,7 +7,7 @@ Welcome to my first Milestone project. The following demonstration of my capabil
 At this juncture my intended audience are for prospective Employers, Recruiters and Collaborators within Front End Web development. Now at the early stages of my developemnt, I realise that I have limited show of live projects so I have included some links to pesuedo-sites or lessions that I have learned along the way 
 to help you get a better understanding of where I am coming from! So the point is that I am ever evolving as a web developer, this position will inevitably change in due course as my skillset and experience increases over time.
 
-[View the live project here.](https://codeinstitute.net)
+[View the live project here.](https://benjamin144.github.io/My-Resume/.)
 
 This is the main marketing website for Code Institute. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential students and partners.
 
@@ -16,7 +16,7 @@ This is the main marketing website for Code Institute. It is designed to be resp
 
 
 ## Contents
-- [Introduction](#tom-jones-personal-portfolio---first-milestone-project)
+- [Introduction](#joe-roberts-personal-portfolio---first-milestone-project)
 - [Demo](#demo)
 - [UX](#ux)
     * [Strategy](#strategy)
@@ -185,8 +185,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     1. As a Returning Visitor, I want to find the new programming challenges or hackathons.
 
-        1. These are clearly shown in the banner message.
-        2. They will be directed to a page with another hero image and call to action.
+        1. This is in development but links to blog sites on the 'Say Hello page was intended for this purpose.
+        2. As the purpose of the site goals are not consistent at this early stage nevertheless will be introduced in the future.
 
     2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
 
@@ -231,7 +231,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://benjamin144.github.io/My-Resume/)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
     - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
