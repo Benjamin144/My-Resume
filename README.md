@@ -7,7 +7,7 @@ Welcome to my first Milestone project. The following demonstration of my capabil
 At this juncture my intended audience are for prospective Employers, Recruiters and Collaborators within Front End Web development. Now at the early stages of my developemnt, I realise that I have limited show of live projects so I have included some links to pesuedo-sites or lessions that I have learned along the way 
 to help you get a better understanding of where I am coming from! So the point is that I am ever evolving as a web developer, this position will inevitably change in due course as my skillset and experience increases over time.
 
-[View the live project here.](https://benjamin144.github.io/My-Resume/.)
+[View the live project here.](https://benjamin144.github.io/My-Resume/target="_blank")
 
 This is the main marketing website for Code Institute. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential students and partners.
 
