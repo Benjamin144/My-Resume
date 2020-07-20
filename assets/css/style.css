@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300,200,300,400,500,600,700|family=Roboto&display=swap:wght@300,200,300,400,500,600,700');
 
-/*-------------------------------------------- general body html styling */
+/*---------------------------------------------------------Reset body styling */
 
 * {  
 	vertical-align: baseline;  
@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
     margin: 0;
 }
 
-/*-------------------------------------------- navigational bar styling*/
+/*----------------------------------------------------------------navigational bar styling*/
 
 .navbar-brand {
      background: url('../images/mvn2d.png');
@@ -42,18 +42,15 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
 }
 
 .navbar{
-    background-color: #0b36c3 !important;
-    
+    background-color: #0b36c3 !important;  
 }
 
 .navbar-nav {
-
     flex-direction: row;
 }
 
 .orangered {
     background-color: orangered !important;
-
 }
 
 .green {
@@ -79,7 +76,7 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
     transition: color 0.7s !important;
 }
 
-        /*-------------------------------------------- full width background images */
+/*------------------------------------------------------------full width background images styling */
 
 .mainframe {
     height: 980px;
@@ -150,10 +147,9 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
     display: flex;
     align-items: center;
     justify-content:center;
-    /*box-shadow: 0 0 10px #999, 0 0 0 15px var(--white);*/
 }
 
- /*-------------------------------------------- landing page styling */
+ /*----------------------------------------------------------------landing page styling */
 
 .mainframe-outer {
     height: 980px;
@@ -191,9 +187,7 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
     z-index: -1;
 }
 
-/*-------------------------------------------------general body styling */
-
-
+/*------------------------------------------------------------general body & icon colouring styles*/
 
 .section-heading-uppercase {
     float: left;
@@ -220,11 +214,7 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
     left:20%;
     font-size: x-large;
     color: #f8f9fa;  
-    /*color: #eeebe8;*/
     text-shadow: 0.1em 0.1em 0.1em #3e3f3a, 0 0 0.1em #3e3f3a, 0 0 0.1em #3e3f3a, 0 0 0.2em #3e3f3a, 0 0 0.2em #3e3f3a, 0 0 0.3em #3e3f3a;
-    
-  
-  
 }
 
 #myimage {
@@ -241,88 +231,6 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
 
 .animate__animated.animate__bounce {
   --animate-duration: 2s;
-}
-
-#hero-container {
-    width:300px;
-    height:300px;
-    border-style: solid;
-    border-color:#cccccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
-.inner {
-    float: right;
-}
-
-
-
-#hero-cover-bg {
-    background: url('../images/fella3.jpg') no-repeat center;
-    background-size:contain;
-    height: 300%; 
-    width: 300%; 
-    max-width: 300px; 
-    max-height: 300px;
-    border-radius: 100%;
-    margin: 0 auto;
-    background-color: rgb(98, 76, 76);
-}
-
-/*-------------------------------------------------Personal Info Styling */
-
-
-
-/*------------------------------------------------general color styling*/
-
-.lead p {
-    color: #3e3f3a
-}
-
-.padding h1 {
-    white-space: nowrap;
-    position: relative;
-    padding: 1rem;
-    display: block;
-    color: #4a4a4a;
-    font-family: 'Mitr', sans-serif;
-    font-size: 4vh;
-    font-weight: 400px;
-    margin-bottom: 0rem;  
-    scroll-margin-top: 5rem; 
-    float: right; 
-}
-
-.about-us h2 {
-    padding: 45px 0;
-}
-
-.padding {
-    padding: 20px 0;
-}
-
-.padding img {
-    width: 100%;
-}
-
-.col{
-    flex-basis: 0;
-    flex-grow: 1;
-    
-}
-
-.col-md-6 h1 {
-  vertical-align:middle;
-  text-align:center;
-  padding:1rem;
-}
-
-.col-md-4 {	
-  vertical-align:middle;
-  text-align:center;
-  padding:1rem;
 }
 
 .shadow h4 {
@@ -403,6 +311,81 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
     color: rgb(241, 86, 38)
 }
 
+/*---------------------------------------------------------main body and components with colour styling */
+
+#hero-container {
+    width:300px;
+    height:300px;
+    border-style: solid;
+    border-color:#cccccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.inner {
+    float: right;
+}
+
+#hero-cover-bg {
+    background: url('../images/fella3.jpg') no-repeat center;
+    background-size:contain;
+    height: 300%; 
+    width: 300%; 
+    max-width: 300px; 
+    max-height: 300px;
+    border-radius: 100%;
+    margin: 0 auto;
+    background-color: rgb(98, 76, 76);
+}
+
+
+.lead p {
+    color: #3e3f3a
+}
+
+.padding h1 {
+    white-space: nowrap;
+    position: relative;
+    padding: 1rem;
+    display: block;
+    color: #4a4a4a;
+    font-family: 'Mitr', sans-serif;
+    font-size: 4vh;
+    font-weight: 400px;
+    margin-bottom: 0rem;  
+    scroll-margin-top: 5rem; 
+    float: right; 
+}
+
+.about-us h2 {
+    padding: 45px 0;
+}
+
+.padding {
+    padding: 20px 0;
+}
+
+.padding img {
+    width: 100%;
+}
+
+.col{
+    flex-basis: 0;
+    flex-grow: 1;  
+}
+
+.col-md-6 h1 {
+  vertical-align:middle;
+  text-align:center;
+  padding:1rem;
+}
+
+.col-md-4 {	
+  vertical-align:middle;
+  text-align:center;
+  padding:1rem;
+}
 
 li, dd, blockquote {  
 	margin-left: 40px;  
@@ -421,47 +404,6 @@ li, dd, blockquote {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-}
-
-@media (max-width: 575.98px) {
-.bd-placeholder-img-lg {
-    font-size: 3.5rem;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    }
-}
-
-@media (min-width: 992px) {
-.col-lg-4{
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
-    }
-}
-
-@media (min-width: 768px) {
-.col-md-6 {
-    flex: 0 0 50%;
-    max-width: 50%;
-    }
-}
-
-@media (min-width: 576px) {
-.col-sm-12 {
-    flex: 0 0 100%;
-    max-width: 100%;
-    }
-}
-
-#your-custom-id p { margin: 0!important; line-height: 40px; }
-@media only screen and (min-width: 767px) {
-#your-unique-id .av_one_half:nth-child(1) {
-    margin-left: 0!important;
-}
-#your-unique-id .av_one_half {
-    margin-left: 1%!important;
-    width: 49%!important;
-    }
 }
 
 .div.col-12.page-title.light i.page-title-boxed {
@@ -490,6 +432,7 @@ div.col-12.page-title.light {
     top: 300px;
 }
 
+
 .carousel-caption .text-center{
     padding-top: 31.25%;
     padding-bottom: 125%;  
@@ -505,6 +448,8 @@ div.col-12.page-title.light {
     left:425px;
     top: 50px;
 }
+
+/*------------------------------------------------------main body and and carousel general styling */
 
 .carousel-inner > .item > img {
     width:4000%;
@@ -547,11 +492,7 @@ div.col-12.page-title.light {
     margin: 0;
 }
 
-
-/*------------------------------------------------skills color styling*/
-
-
-
+/*----------------------------------------------main body and customized Bootstraps progress bar general styling */
 
 .progress-section {
     margin: 40px 20px;
@@ -578,6 +519,7 @@ div.col-12.page-title.light {
     letter-spacing: 3px;
 }
 
+/*--------------------------------------------------main body and and custom JQuery timeline features general styling */
 
 :root{
     --white: #fff;
@@ -676,7 +618,6 @@ color: rgb(40, 153, 46);
     color: #c69 
 }
 
-
 .skill-column .skill-pct-text {
     font-size: 1.75em;
     position: absolute;
@@ -685,7 +626,6 @@ color: rgb(40, 153, 46);
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .timeline-item {
@@ -713,7 +653,6 @@ color: rgb(40, 153, 46);
     margin: 0;
 }
 
-
 .mt-4, .my-4 {
     margin-top: 1.5rem!important;
 }
@@ -730,7 +669,11 @@ color: rgb(40, 153, 46);
     
 }
 
-/*---------------------------------------footer element styling */
+.text-light a {
+    color: rgb(204, 253, 130);
+}
+
+/*--------------------------------------------------------footer element styling */
 
 .footer-bg {
     /*background-color: #3e3f3a;*/
@@ -751,10 +694,7 @@ color: rgb(40, 153, 46);
     font-size: 20%;
     z-index:1;
     margin-top: 100px;
-    box-shadow: 0 0 10px #999, 0 0 0 15px var(--white); 
-    
-    
-       
+    box-shadow: 0 0 10px #999, 0 0 0 15px var(--white);     
 }
 
 #text {
@@ -775,4 +715,49 @@ color: rgb(40, 153, 46);
     font-size: 1.5rem;
     color: #eeebe8;
     text-shadow: 0.1em 0.1em 0.1em #3e3f3a, 0 0 0.1em #3e3f3a, 0 0 0.1em #3e3f3a, 0 0 0.2em #3e3f3a, 0 0 0.2em #3e3f3a, 0 0 0.3em #3e3f3a;
+}
+
+/*-----------------------------------------------------various media screen sizes */
+
+@media (max-width: 575.98px) {
+.bd-placeholder-img-lg {
+    font-size: 3.5rem;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    }
+}
+
+@media (min-width: 992px) {
+.col-lg-4{
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    }
+}
+
+@media (min-width: 768px) {
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    }
+}
+
+@media (min-width: 576px) {
+.col-sm-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    }
+}
+
+#your-custom-id p { margin: 0!important; line-height: 40px; }
+@media only screen and (min-width: 767px) {
+#your-unique-id .av_one_half:nth-child(1) {
+    margin-left: 0!important;
+}
+#your-unique-id .av_one_half {
+    margin-left: 1%!important;
+    width: 49%!important;
+    }
+}
+
 

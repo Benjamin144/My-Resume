@@ -215,15 +215,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iphone6 iPhone7, iPhone 8 iPhoneX, iPad, iPad Pro and Pixel 2XL
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
 
--   On some mobile devices the landing page background image appears to not fluidly stretchacross the extremities of the navigation bar. 
+-   On some mobile devices the landing page background image appears to not fluidly stretch across the extremities of the navigation bar. 
 -   A white gap can be seen down the sides of the landing page and navigation bar as a result looks wider
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+-   Last link in Navbar can appear relatively obscure or pushed sidways out of view when when screen sizes are rendered for Moto G4, Galaxy S5 and Pixel 2.
+-   On Microsoft Edge and Internet Explorer Browsers....
 
 ## Deployment
 
@@ -335,3 +336,5 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 -   Tutor support at Code Institute for their support.
 
 -   The Code Institute Slack community for their ongoing support.
+
+-   I would also like to say a special thanks to Brian O'Grady, Programme Director & Matt Rudge a Senior Product Developer at The Code Institute for their teaching .
