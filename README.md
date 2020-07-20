@@ -149,6 +149,7 @@ My intention is to add my own live projects for my partners in business.
 
 I have tested my portfolio using Chromes developer tools, and Browserstack
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+As the site is under development their are currently 28 syntax issues that will be corrected in due course
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
