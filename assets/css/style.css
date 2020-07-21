@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
 }
 
 .navbar{
-    background-color: #0b36c3 !important;  
+    background-color: transparent !important;  
 }
 
 .navbar-nav {
@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
 .navbar .navbar-nav li a:hover, .navbar .navbar-nav {
     height: 30px !important;
     text-decoration: none !important;
-    color: rgb(250, 250, 114)!important;
+    color: #fff!important;
     border-bottom: 1px solid transparent !important;
     transition: border-bottom 0.7s !important;
     -webkit-transition: all .7s ease-in-out !important;
@@ -78,18 +78,21 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
 
 /*------------------------------------------------------------full width background images styling */
 
+
+
 .mainframe {
-    height: 980px;
+    height: 100vh;
     width: 100vw;
-    background: url('../images/mainframe.jpg') no-repeat center center;
+    background: url('../images/mainframe.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: 100vh 100vh 100vh 100vh;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content:center;
-    box-shadow: 0 0 10px #0b36c3, 0 0 0 15px var(--white)
+    box-shadow: 0 0 10px #0b36c3, 0 0 0 15px;
+    
 }
 
 .background {
@@ -118,7 +121,8 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
     display: flex;
     align-items: center;
     justify-content:center; 
-    box-shadow: 0 0 10px rgb(10, 191, 83), 0 0 0 15px var(--white) 
+   
+    
 }
 
 .christelle {
@@ -159,7 +163,7 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
 .myname h1  {
     color: #F5F5F5;
     font-size: 350%;
-    font-weight: 500%;
+    font-weight: 500;
     margin-bottom: 2rem;
     letter-spacing: 0.5rem;       
 }
@@ -168,7 +172,7 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
     color:#FFF;
     font-weight: bold;
     padding-top: 5px;
-    transition: (3s);
+    
 }
 
 .jobtitle-inner :hover {
@@ -227,10 +231,6 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
     float: left;
     background-color: blue;
     margin: 5px;
-}
-
-.animate__animated.animate__bounce {
-  --animate-duration: 2s;
 }
 
 .shadow h4 {
@@ -292,22 +292,22 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
 }
 
 .fa-globe-europe {
-   margin-top: 2px 2px;
+   margin-top: 2px;
    color: rgb(39, 41, 39);
 }
 
 .fa-code {
-    margin-top: 2px 2px;
+    margin-top: 2px;
     color: rgb(97, 117, 173)
 }
 
 .fa-briefcase {
-    margin-top: 2px 2px;
+    margin-top: 2px;
     color: rgb(212, 170, 31)
 }
 
 .fa-taxi {
-    margin-top: 2px 2px;
+    margin-top: 2px;
     color: rgb(241, 86, 38)
 }
 
@@ -352,7 +352,7 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
     color: #4a4a4a;
     font-family: 'Mitr', sans-serif;
     font-size: 4vh;
-    font-weight: 400px;
+    font-weight: 400;
     margin-bottom: 0rem;  
     scroll-margin-top: 5rem; 
     float: right; 
@@ -422,14 +422,13 @@ div.col-12.page-title.light {
     font-weight: bold;
     margin-top: 85px;
     font-size: 20%;
-    box-shadow: 0 0 10px #999, 0 0 0 15px var(--white);
+    box-shadow: 0 0 10px #999, 0 0 0 15px;
  
 }
-
 .wrapper {
-    position: left;
-    left: 300px;
-    top: 300px;
+    position: absolute;
+    left: 500px;
+    top: 500px;
 }
 
 
@@ -522,13 +521,10 @@ div.col-12.page-title.light {
 /*--------------------------------------------------main body and and custom JQuery timeline features general styling */
 
 :root{
-    --white: #fff;
-    --black: #000;
-    --color_1: rgb(98, 76, 76);
-    --color_2: #1F5295;
-    --color_3: #89b743;
-    --color_4: #e02a6d;
+   
+    background-color:  #fff;
 }
+
 .main-timeline{ font-family: 'Niramit', sans-serif; }
 .main-timeline:after{
     content: '';
@@ -554,13 +550,12 @@ div.col-12.page-title.light {
     margin-bottom: 20px;
     position: relative;
     z-index: 1;
-    
 }
 .main-timeline .timeline-year:after{
     content: '';
     height: 60px;
     width: 107%;
-    background-color: var(--color_1);
+    background-color: rgb(98, 76, 76);
     transform: translateX(-50%) translateY(-50%);
     position: absolute;
     left: 50%;
@@ -570,8 +565,8 @@ div.col-12.page-title.light {
     clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
 }
 .main-timeline .timeline-year span {
-    color: var(--white);
-    background-color: var(--color_1);
+    color: white;
+    background-color: rgb(98, 76, 76);
     font-size: 35px;
     font-weight: 600;
     text-align: center;
@@ -580,12 +575,12 @@ div.col-12.page-title.light {
     width: 120px;
     margin: 0 auto;
     border-radius: 50%;
-    box-shadow: 0 0 10px #999, 0 0 0 15px var(--white);
+    box-shadow: 0 0 10px #999, 0 0 0 15px;
     display: block;
 }
 .main-timeline .inner-content{
     padding: 0 10px 10px 15px;
-    border-left: 15px solid var(--color_1);
+    border-left: 15px solid 
 }
 .main-timeline .title{
     font-size: 25px;
@@ -603,7 +598,7 @@ div.col-12.page-title.light {
 }
 
 .timeline-icon {
-color: rgb(40, 153, 46);
+color: #89b743;  
 }
 
 .fa-css3-alt{
@@ -693,11 +688,8 @@ color: rgb(40, 153, 46);
     font-size: 20%;
     z-index:1;
     margin-top: 100px;
-    box-shadow: 0 0 10px #999, 0 0 0 15px var(--white);     
-}
-
-#text {
-    padding-top: 50 50 50 50;
+    padding: 40px 40px;
+    box-shadow: 0 0 10px rgb(10, 191, 83), 0 0 0 15px;     
 }
 
 .btn-position {
