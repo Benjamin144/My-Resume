@@ -666,6 +666,11 @@ color: #89b743;
     color: rgb(204, 253, 130);
 }
 
+.card-body {
+    width: 100%
+}
+
+
 /*--------------------------------------------------------footer element styling */
 
 .footer-bg {
@@ -730,6 +735,12 @@ color: #89b743;
     flex: 0 0 50%;
     max-width: 50%;
     }
+}
+
+@media (min-width: 576px) {
+.col-md-8 {
+    flex: 0 0 100%;
+    width:100%;
 }
 
 @media (min-width: 576px) {
