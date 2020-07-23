@@ -815,11 +815,11 @@ color: #fff!important;
 }
 
 @media (max-width: 575.98px) {
-.bd-placeholder-img-lg {
-    font-size: 3.5rem;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
     }
 }
 
@@ -841,6 +841,8 @@ color: #fff!important;
 .col-md-8 {
     flex: 0 0 100%;
     width:100%;
+    }
+
 }
 
 @media (min-width: 576px) {
@@ -855,6 +857,8 @@ color: #fff!important;
 #your-unique-id .av_one_half:nth-child(1) {
     margin-left: 0!important;
 }    
+
+}
 
 #your-unique-id .av_one_half {
     margin-left: 1%!important;
