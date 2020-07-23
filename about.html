@@ -74,72 +74,56 @@
       </div>
     </nav>
 
- <section id="about-us" class="about-us">
-    <div class="row">
-      <div class="col-lg-4">
-        <div class="display-4">
-                <h2 class="display-4"><strong>WELCOME TO MY SITE!</strong></h2>
-              </div>
-      </div>
-
-      <div class="card mb-3" style="max-width: 540px;">
-        <div class="row no-gutters">
-          <div class="col-lg-4">
-            <img src="assets/images/heroJ.jpg" class="card-img" alt="Picture of Joseph" /> 
+    <section class="about-us" id="about-us">
+      <div class="container-card">
+        <div class="row align-items-lg-center">
+          <div class="col-12 col-md-6 text-center text md-left">
+            <h1>Hello and Welcome!</h1>
           </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">About Me</h5>
-              <p class="card-text">
-                I am a self motivated and creative Front End Developer, with technical skills in HTML, CSS, JavaScript and Python. 
-                An inquisitive and outgoing person who loves to code!
-                I’m a self-motivated, creative thinker with over six months  of marketing experience, in the profession and have a keen interest in social media
-                and digitial content.
-
-
-              </p>
-              <p class="card-text">
-                <small class="text-muted">Feel free to get in touch to dicuss any colloborative opportunities!</small>
-              </p>
+          <div class="card mb-3">
+            <div class="row no-gutters">
+              <div class="col-sm-4 col-6">
+                <img
+                  src="assets/images/heroJ.jpg"
+                  class="card-img"
+                  alt="Picture of Joseph"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <!--<h5 class="card-title">About Me</h5>-->
+                  <p class="card-text">
+                    Hi! my name is Joseph, I am a self motivated and creative
+                    Front End Developer, with technical skills in HTML, CSS,
+                    JavaScript and Python. An inquisitive and outgoing person
+                    who loves to code! I’m a self-motivated, creative thinker
+                    with over six months of marketing experience, in the
+                    profession and have a keen interest in social media and
+                    digitial content.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted"
+                      >Feel free to get in touch to dicuss any colloborative
+                      opportunities!</small
+                    >
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        
-                <p class="button">
-                  <button
-                    type="button"
-                    class="btn btn-lg btn-primary"
-                    data-toggle="modal"
-                    data-target="#staticBackdrop"
-                  >
-                    <span class="more-btn">View Profile »</span>
-                  </button>
-                </p>
-            
-      </div>
-    </div>
-    </section>
-
-
-     <hr class="featurette-divider" />
-
-    <div class="container">
-      <div class="padding">
-        <div class="row">
-          <div class="col-md-6">
-            <p id="nearly_last_paragraph"></p>
-            <br />
-            <br />
-            <br />
-            <br />
+          <div class="col-sm-4 col-12">
+            <button
+              type="button"
+              class="btn btn-primary text-uppercase text-white"
+              data-toggle="modal"
+              data-target="#staticBackdrop"
+            >
+              <span class="more-btn">View Profile</span>
+            </button>
           </div>
         </div>
       </div>
-    </div>
-
+    </section>
     <!-- Four column responsiveness -->
 
     <section id="my-work" class="my-work">
@@ -151,8 +135,8 @@
               <br />
               <div class="">
                 <div class="fa fa-globe-europe fa-4x about-tile-icon"></div>
-                <h2>1</h2>
-                <h5>Based in the UK</h5>
+                <h2><a href="globe" class="europe">1</a></h2>
+                <h5><a href="globe" class="europe">based in the UK</a></h5>
               </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
@@ -160,8 +144,8 @@
               <div class="padding">
                 <div class="">
                   <div class="fa fa-code fa-4x about-tile-icon"></div>
-                  <h2>6</h2>
-                  <h5>Months in coding</h5>
+                  <h2><a href="#code" class="code">6</a></h2>
+                  <h5><a href="#code" class="code">months in coding!</a></h5>
                 </div>
               </div>
             </div>
@@ -170,8 +154,12 @@
               <div class="padding">
                 <div class="">
                   <div class="fa fa-briefcase fa-4x about-tile-icon"></div>
-                  <h2>10+</h2>
-                  <h5>Years Working Experience</h5>
+                  <h2><a href="#briefcase" class="briefcase">10+</a></h2>
+                  <h5>
+                    <a href="#briefcase" class="briefcase"
+                      >years work experience</a
+                    >
+                  </h5>
                 </div>
               </div>
             </div>
@@ -180,8 +168,10 @@
               <div class="padding">
                 <div class="">
                   <div class="fa fa-taxi fa-4x about-tile-icon"></div>
-                  <h2>1996</h2>
-                  <h5>and driving ever since!</h5>
+                  <h2><a href="#taxi" class="taxi">1996</a></h2>
+                  <h5>
+                    <a href="#taxi" class="taxi">and driving ever since!</a>
+                  </h5>
                 </div>
               </div>
             </div>
@@ -257,12 +247,9 @@
 
     <!-- START THE FEATURETTES -->
 
-    <hr class="featurette-divider" />
     <div class="ak-idun"></div>
 
     <!--Footer responsiveness-->
-
-    <hr class="featurette-divider" />
 
     <footer class="footer-bg text-center">
       <div class="container-md">

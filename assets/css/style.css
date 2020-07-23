@@ -17,6 +17,8 @@ html, body {
     min-width: 100vw;  
     width: 100vw;
     height: 100vh;
+    background-color:#f8f9fa;
+    /*background-color:  #6e6e6e;*/
 }  
 
 h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {  
@@ -179,7 +181,7 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
 }
 
 .jobtitle-inner :hover {
-    filter: blur(2px)
+    filter: blur(2px);
 }
 
 .mist {
@@ -194,75 +196,7 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
     z-index: -1;
 }
 
-/*------------------------------------------------------------general body & icon colouring styles*/
-
-.section-heading-uppercase {
-    float: left;
-    background-color: #f8f9fa !important;
-}
-
-.display-1 {
-    color: rgb(196, 62, 13);
-}
-
-.display-2 {
-    color: hsl(120, 78%, 20%);
-    font-size: xx-large;       
-}
-
-.display-3 {
-    position: relative;
-    color: purple;
-    font-size: xx-large;
-}
-
-.display-4 {
-    position: relative;
-    left:20%;
-    font-size: x-large;
-    color: #f8f9fa;  
-    text-shadow: 0.1em 0.1em 0.1em #3e3f3a, 0 0 0.1em #3e3f3a, 0 0 0.1em #3e3f3a, 0 0 0.2em #3e3f3a, 0 0 0.2em #3e3f3a, 0 0 0.3em #3e3f3a;
-}
-
-#myimage {
-    height:600px;
-  }
-
-#leftside{
-    padding-top: 600px;
-    width: 33%;
-    float: left;
-    background-color: blue;
-    margin: 5px;
-}
-
-.shadow h4 {
-    text-align: center;
-    text-justify: inter-word;
-    background-color: #fff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
-    padding: 20px;
-    margin: 0 auto;
-    max-width: 640px;
-    border-color: rgb(224, 79, 53);
-    font-weight: bold;
-    right:10%;
-}
-
-.button{
-    padding: 40px;
-    margin: 0 auto;
-}
-
-.carousel-caption h4 {
-    color: #3e3f3a;
-    z-index: 1;
-}
-
-.carousel-wrapper{
-    margin: 60px 40px;
-}
+/*------------------------------------------------------------icon colouring styles*/
 
 .fa-tv {
     Margin: auto;
@@ -296,23 +230,63 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
 
 .fa-globe-europe {
    margin-top: 2px;
-   color: rgb(39, 41, 39);
+   color: #49c5b6;
+}
+
+.europe {
+   color: #49c5b6;
 }
 
 .fa-code {
     margin-top: 2px;
-    color: rgb(97, 117, 173)
+    color: rgb(97, 117, 173);
+}
+
+.code {
+    color: rgb(97,117,173);
 }
 
 .fa-briefcase {
     margin-top: 2px;
-    color: rgb(212, 170, 31)
+    color: rgb(212, 170, 31);
+}
+
+.briefcase {
+    color: rgb(212, 170, 31);
 }
 
 .fa-taxi {
     margin-top: 2px;
-    color: rgb(241, 86, 38)
+    color: rgb(241, 86, 38);
 }
+
+.taxi {
+    color: rgb(241, 86, 38);
+}
+
+/*--------------------------------------general body--------------*/
+
+.section-heading-uppercase {
+    float: left;
+    background-color: #f8f9fa !important;
+}
+
+.display-1 {
+    color: rgb(196, 62, 13);
+}
+
+.display-2 {
+    color: hsl(120, 78%, 20%);
+    font-size: xx-large;       
+}
+
+.display-3 {
+    position: relative;
+    color: purple;
+    font-size: xx-large;
+}
+
+
 
 /*---------------------------------------------------------main body and components with colour styling */
 
@@ -349,8 +323,12 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
 }
 
 .about-us  {
-     margin-top: 100px;
-     padding: 150px 150px;
+     padding: 150px 0px;
+     display: block;
+     margin: 0;
+     border: 0;
+     background-color: #f4f7f6;
+    
 }
 
 .padding {
@@ -408,13 +386,14 @@ div.col-12.page-title.light {
 }
 
 .jumbotron {
-    
-    height: 35vh;
+
+    position: sticky;
+    height: 50vh;
     color: rgb(85, 112, 201);
     font-weight: bold;
-    margin-top: 85px;
+    margin-top: 100px;
     font-size: 20%;
-    box-shadow: 0 0 10px #999, 0 0 0 15px;
+    box-shadow: 0 0 2px #999, 0 0 0 4px;
  
 }
 
@@ -431,10 +410,6 @@ padding: 20px 20px;
 }
 
 
-.carousel-caption .text-center{
-    padding-top: 31.25%;
-    padding-bottom: 125%;  
-}
 
 .featurette-heading  {
     position: relative;
@@ -447,11 +422,67 @@ padding: 20px 20px;
     top: 50px;
 }
 
+
+#myimage {
+    height:600px;
+  }
+
+#leftside{
+    padding-top: 600px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+    margin: 5px;
+}
+
+.shadow h4 {
+    text-align: center;
+    text-justify: inter-word;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 640px;
+    border-color: rgb(224, 79, 53);
+    font-weight: bold;
+    right:10%;
+}
+
+.button{
+    padding: 40px;
+    margin: 0 auto;
+}
+
 /*------------------------------------------------------main body and and carousel general styling */
 
+.container-carousel {
+    border: transparent;
+}
+
+.carousel-caption h4 {
+    position: relative;
+    color: #3e3f3a;
+    z-index: 1;
+    left:100px; 
+    top:2px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+.carousel-wrapper{
+    margin: 60px 40px;
+}
+
+.carousel-caption .text-center{
+    padding-top: 31.25%;
+    padding-bottom: 125%;  
+}
+
 .carousel-inner > .item > img {
-    width:4000%;
-    height:2250%;
+    width:100%;
+    max-height: 200px !important;
     color: transparent;
 }
 
@@ -609,7 +640,7 @@ color: #89b743;
 }
 
 .fa-sass{
-    color: #c69 
+    color: #c69;
 }
 
 .skill-column .skill-pct-text {
@@ -629,7 +660,7 @@ color: #89b743;
     border-left: 1px solid;
 }
 
-.timeline-item p {
+.timeline-item h4 p {
     padding: 0;
     margin: 0;
 }
@@ -666,25 +697,65 @@ color: #89b743;
     color: rgb(204, 253, 130);
 }
 
-.card-body {
-    width: 100%
+.card-body  {
+    width: 100%;
+    border: 20vmin;
+    
 }
 
+.card {
+    max-width: 540px;
+    box-shadow: 0 0 1px whitesmoke, 0 0 0 1px; 
+    background-position: center bottom;   
+}
 
-/*--------------------------------------------------------footer element styling */
+.card-item {
+    max-width: 100%;
+       
+}
 
-.footer-bg {
-    /*background-color: #3e3f3a;*/
-    /*color: #797062;*/
-    background-color:rgb(0, 17, 44);
-    color: rgb(85, 90, 124);
+.card-img {
+    max-width: 100%;
+    height: auto;
+    margin: 5px;
+    border-radius: 5%;
+}
+
+.card-title {
     padding: 20px;
-    letter-spacing: 0.09rem;
+    font-weight: 600;
 }
 
-.footer-heading{
-    text-decoration: underline;
+.card-text p{
+    max-width: 450px;
+    min-width: 250px;
 }
+
+.container-card {
+    width: 110%;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #6e6e6e;
+    text-align:center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    
+}
+
+.container {
+    width: 100%;
+}
+
+.my-work {
+    background-color: #4a4a4a;
+}
+
 
 .container-fluid {
     max-width: 100%;
@@ -701,18 +772,47 @@ color: #89b743;
     z-index:1;
 }
 
-.btn-lg {
+.more-btn {
+    display: inline-block;
+    padding-right: 100px;
+    padding-left: 100px;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    border: 0px solid;
+    line-height: 1.5;
+    padding: 5px 0 !important;
     position: relative;
-    left:21%; 
+    overflow: hidden;
+    font-size: 1rem;
+    color: #fff;
 }
 
-.more-btn {
-    font-size: 1.5rem;
-    color: #eeebe8;
-    text-shadow: 0.1em 0.1em 0.1em #3e3f3a, 0 0 0.1em #3e3f3a, 0 0 0.1em #3e3f3a, 0 0 0.2em #3e3f3a, 0 0 0.2em #3e3f3a, 0 0 0.3em #3e3f3a;
+.text-white {
+color: #fff!important;
+}
+
+/*--------------------------------------------------------footer element styling */
+
+.footer-bg {
+    background-color:rgb(0, 17, 44);
+    color: rgb(85, 90, 124);
+    padding: 20px;
+    letter-spacing: 0.09rem;
+}
+
+.footer-heading{
+    text-decoration: underline;
 }
 
 /*-----------------------------------------------------various media screen sizes */
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+
+@media (min-width: 480px) {
+    .timeline-item {
+        max-width: 767px;
+}
 
 @media (max-width: 575.98px) {
 .bd-placeholder-img-lg {
@@ -754,7 +854,8 @@ color: #89b743;
 @media only screen and (min-width: 767px) {
 #your-unique-id .av_one_half:nth-child(1) {
     margin-left: 0!important;
-}
+}    
+
 #your-unique-id .av_one_half {
     margin-left: 1%!important;
     width: 49%!important;
